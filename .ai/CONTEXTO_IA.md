@@ -1,6 +1,5 @@
-﻿<!-- ARCHIVO GENERADO AUTOMATICAMENTE. NO EDITAR A MANO.
-     Fuente: .ai/CONTEXTO_IA.md  |  Regenerar: .ai/sincronizar.ps1 -->
-# CLAUDE.md - Lineamientos del proyecto (Claude Code)
+<!-- FUENTE DE VERDAD. No edites CLAUDE.md, AGENTS.md ni .github/copilot-instructions.md a mano:
+     edita ESTE archivo y ejecuta `.ai/sincronizar.ps1` para regenerarlos todos. -->
 
 > Este archivo da el **contexto y los lineamientos del proyecto** a cualquier asistente de IA
 > (Claude, GitHub Copilot, Codex, etc.). El objetivo es que **ningún chat nuevo empiece desde cero**.
