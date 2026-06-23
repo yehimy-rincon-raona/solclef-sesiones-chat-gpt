@@ -1,0 +1,177 @@
+---------------------------------------------------------------------------------------------------------
+Caso de uso: Edición, limpieza y estandarización de un documento interno usando Canvas
+---------------------------------------------------------------------------------------------------------
+
+## Objetivo del ejercicio
+Trabajar sobre un documento en Canvas para:
+- editar por secciones sin perder el contexto
+- unificar tono corporativo
+- eliminar redundancias y contradicciones
+- detectar información faltante sin inventar
+- dejar el texto listo para revisión humana / legal
+
+---
+
+## Instrucciones para ejecutar el ejercicio en Canvas
+1. Abre ChatGPT y entra a **Canvas**.
+2. Carga o pega el borrador inicial de la política.
+3. Ejecuta los siguientes prompts en orden.
+4. Después de cada paso, revisa el resultado antes de continuar.
+5. Si el documento tiene datos sensibles, anonimízalos antes de pegarlo.
+
+---
+---------------------------------------------------------------------------------------------------------
+Prompt
+## Paso 1 — Diagnóstico inicial
+---------------------------------------------------------------------------------------------------------
+
+Contexto: Este es un borrador de política interna de vacaciones y ausencias para una empresa de 200 empleados. El texto fue escrito por varias personas y puede tener inconsistencias.
+
+Rol: Actúa como editor corporativo senior especializado en comunicación interna.
+
+Objetivo: Analiza el documento antes de reescribirlo.
+
+Tarea:
+Revisa el borrador y detecta únicamente:
+1. repeticiones
+2. contradicciones
+3. cambios de tono
+4. términos usados de forma inconsistente
+5. vacíos de información
+6. frases ambiguas o poco claras
+
+Formato:
+Entrega el resultado en una tabla con estas columnas:
+- Sección
+- Problema detectado
+- Tipo de problema
+- Recomendación breve
+
+Restricciones:
+- No reescribas todavía el documento completo.
+- No inventes reglas, fechas ni condiciones.
+- Si falta información, indícalo claramente.
+- Mantén el análisis centrado solo en el texto proporcionado.
+
+---
+---------------------------------------------------------------------------------------------------------
+Prompt
+## Paso 2 — Primera edición en Canvas
+---------------------------------------------------------------------------------------------------------
+
+
+Contexto: Ya identificaste los principales problemas del borrador.
+
+Rol: Actúa como editor corporativo senior especializado en comunicación interna.
+
+Objetivo: Editar el documento directamente en Canvas para dejar una primera versión más clara, consistente y profesional.
+
+Tarea:
+Reescribe el documento directamente en Canvas respetando su estructura general por secciones.
+
+Debes:
+- unificar el tono corporativo
+- eliminar redundancias
+- corregir contradicciones visibles
+- usar una terminología consistente
+- mejorar claridad y legibilidad
+
+Formato:
+Edita el texto completo dentro de Canvas.
+
+Restricciones:
+- No inventes reglas, fechas ni condiciones.
+- No agregues contenido nuevo que no esté implícito en el texto.
+- Si una regla o dato no está claro, márcalo como [PENDIENTE].
+- No conviertas el texto en algo jurídico si no lo era originalmente.
+- Mantén un tono corporativo claro, ordenado y profesional.
+
+---------------------------------------------------------------------------------------------------------
+Prompt
+## Paso 3 — Mejora de claridad y consistencia
+---------------------------------------------------------------------------------------------------------
+
+Contexto: Ya existe una primera versión editada en Canvas.
+
+Rol: Actúa como revisor editorial corporativo.
+
+Objetivo: Mejorar la calidad de redacción sin cambiar el sentido del contenido.
+
+Tarea:
+Haz una segunda revisión del texto en Canvas para:
+- simplificar frases largas
+- eliminar ambigüedades
+- mejorar transición entre secciones
+- asegurar consistencia terminológica
+- hacer el texto más fácil de leer para toda la organización
+
+Formato:
+Edita directamente en Canvas y luego resume los cambios realizados en una lista breve.
+
+Restricciones:
+- No inventes información.
+- No cambies políticas o decisiones que no estén explícitas en el borrador.
+- Conserva la estructura del documento.
+- Mantén cualquier vacío como [PENDIENTE].
+
+---
+---------------------------------------------------------------------------------------------------------
+Prompt
+## Paso 4 — Verificación final de calidad
+---------------------------------------------------------------------------------------------------------
+
+Contexto: El documento ya fue editado y mejorado en Canvas.
+
+Rol: Actúa como auditor de calidad editorial para documentos internos.
+
+Objetivo: Verificar si el documento está listo para revisión final.
+
+Tarea:
+Revisa la versión actual del documento y entrégame:
+
+1. una lista de cambios relevantes realizados
+2. una lista de términos que fueron unificados
+3. una lista de elementos marcados como [PENDIENTE]
+4. una lista de riesgos o puntos que deben validarse antes de publicarlo
+5. una conclusión final con uno de estos estados:
+- LISTO PARA REVISIÓN LEGAL
+- REQUIERE AJUSTES ANTES DE REVISIÓN LEGAL
+
+Formato:
+Entrega la respuesta en 5 bloques claramente separados.
+
+Restricciones:
+- No inventes información faltante.
+- Basa la revisión solo en el texto actual.
+- Si detectas ambigüedades no resueltas, inclúyelas en riesgos.
+
+---
+---------------------------------------------------------------------------------------------------------
+Prompt
+## Paso 5 — Comparación antes vs después
+---------------------------------------------------------------------------------------------------------
+Contexto: Ya existe un borrador inicial y una versión editada en Canvas.
+
+Rol: Actúa como facilitador de capacitación.
+
+Objetivo: Mostrar el valor práctico del uso de Canvas en este ejercicio.
+
+Tarea:
+Compara de forma breve el “antes” y el “después” del documento y explica:
+
+- qué mejoró en claridad
+- qué mejoró en consistencia
+- qué mejoró en tono
+- qué problemas fueron detectados a tiempo
+- por qué Canvas fue útil para iterar sin perder contexto
+
+Formato:
+Entrega:
+1. una tabla de comparación “Antes / Después”
+2. un cierre breve de máximo 5 bullets para explicar el aprendizaje del ejercicio
+
+Restricciones:
+- No inventes beneficios que no se vean en el resultado.
+- Mantén el análisis claro y didáctico.
+
+---

@@ -1,0 +1,188 @@
+---------------------------------------------------------------------------------------------------------
+Caso de uso: Creación de un Proyecto en ChatGPT para gestionar y automatizar el seguimiento mensual de indicadores comerciales (ventas, pipeline y oportunidades), centralizando contexto, archivos y reglas de trabajo.
+---------------------------------------------------------------------------------------------------------
+Situación:
+El equipo comercial cada mes debe:
+    • Revisar archivo de ventas (Excel).
+    • Analizar pipeline actualizado.
+    • Detectar riesgos de cumplimiento de meta.
+    • Redactar informe ejecutivo para Dirección.
+    • Preparar lista de acciones comerciales.
+
+Actualmente:
+    • Cada persona trabaja desde chats distintos.
+    • Se repite contexto cada vez.
+    • Se olvidan criterios.
+    • El formato del informe cambia cada mes.
+    • No hay trazabilidad clara.
+
+Objetivos a cumplir:
+Crear un Proyecto en ChatGPT que centralice:
+
+Reglas
+    Formato estándar
+        • Criterios de análisis
+        • Archivos base
+        • Cargar archivos reales (ventas + pipeline).
+        • Definir instrucciones fijas (configuración del proyecto).
+
+    Crear acciones tipo “plantillas reutilizables” para:
+        • Análisis mensual
+        • Detección de riesgos
+        • Generación de informe ejecutivo
+        • Lista de acciones comerciales
+
+Qué se espera que pase:
+    Después de configurarlo:
+    • El equipo solo carga el Excel del mes.
+    • Ejecuta el prompt estandarizado.
+
+Obtiene:
+    • Diagnóstico claro
+    • Tabla de riesgos
+    • Resumen ejecutivo consistente
+    • Lista priorizada de acciones
+    • Sin repetir reglas cada vez.
+    • Sin cambiar formato.
+    • Sin inventar cifras.
+
+---------------------------------------------------------------------------------------------------------
+PASO 1 — Crear el Proyecto
+---------------------------------------------------------------------------------------------------------
+Nombre sugerido del Proyecto:
+“Seguimiento Comercial Mensual 2026”
+
+---------------------------------------------------------------------------------------------------------
+PASO 2 — Configuración del Proyecto (Instrucciones permanentes)
+Estas instrucciones se colocan en la configuración del Proyecto para que siempre apliquen.
+---------------------------------------------------------------------------------------------------------
+Contexto:
+Este proyecto analiza ventas mensuales del equipo comercial de energía renovable en España. Se cargan archivos de ventas mensuales y pipeline activo. La meta mensual es definida en cada archivo.
+
+Rol:
+Actúa como Analista Senior Comercial especializado en empresas de energía.
+
+Objetivo:
+Generar:
+    • Comparativo ventas reales vs meta mensual.
+    • Detección de desviaciones mayores al 10%.
+    • Tabla de oportunidades en riesgo (probabilidad <50% y cierre <30 días).
+    • Resumen ejecutivo listo para Dirección Comercial.
+
+Formato obligatorio:
+    • Resumen ejecutivo (máx. 12 líneas).
+    • Tabla con columnas: Riesgo | Impacto estimado | Causa probable | Acción sugerida.
+    • Lista de 5 acciones priorizadas.
+
+Restricciones:
+    • No inventes cifras.
+    • No redondees valores.
+    • Si no existe meta mensual, marca PENDIENTE.
+    • No hagas proyecciones no solicitadas.
+
+---------------------------------------------------------------------------------------------------------
+PASO 3 — Cargar Archivos en el Proyecto
+---------------------------------------------------------------------------------------------------------
+Archivos que se cargan:
+    Ventas_Enero_2026.xlsx
+    Pipeline_Actualizado_Enero_2026.xlsx
+    Plantilla_Informe_Direccion.docx (opcional)
+
+Esto permite:
+    • Trabajar siempre con la misma estructura.
+    • Evitar copiar y pegar.
+    • Mantener trazabilidad.
+
+---------------------------------------------------------------------------------------------------------
+PASO 4 — Crear “Acciones” reutilizables dentro del Proyecto
+En este contexto, las acciones no son técnicas, sino prompts estructurados reutilizables.
+---------------------------------------------------------------------------------------------------------
+
+Acción 1: Análisis mensual completo
+
+--------------------------------------------------------------------------------------------------------
+
+Prompt (con datos ficticios):
+
+Contexto:
+Se cargó Ventas_Enero_2026.xlsx y Pipeline_Actualizado_Enero_2026.xlsx.
+
+Meta mensual: €4.500.000.
+
+Rol: Actúa como Analista Senior Comercial. (No se debe colocar si ya está en la configuración)
+
+Objetivo:
+Determinar:
+    • % cumplimiento.
+    • Brecha vs meta.
+    • Top 3 oportunidades críticas.
+    • Impacto estimado si no cierran.
+
+Formato:
+    • Resumen ejecutivo (máx. 10 líneas).
+    • Tabla de oportunidades críticas.
+    • 5 acciones concretas priorizadas.
+
+Restricciones:
+    • No proyectes sin base numérica.
+    • No inventes probabilidad.
+    • Si no encuentras probabilidad en el archivo, marca PENDIENTE.
+
+
+---------------------------------------------------------------------------------------------------------
+
+Acción 2: Generar informe listo para Dirección
+
+--------------------------------------------------------------------------------------------------------
+
+Contexto:
+Análisis de Enero 2026 muestra cumplimiento del 87% de meta.
+
+Rol:
+Actúa como Director Comercial.
+
+Objetivo:
+    • Redactar informe para Comité Ejecutivo.
+    • Formato obligatorio:
+    • BLUF (máx. 3 líneas).
+    • Estado actual vs meta.
+    • Riesgos principales.
+    • 3 decisiones requeridas.
+
+Restricciones:
+
+    • No justificar desviaciones sin datos.
+    • No proponer descuentos si no están autorizados.
+    • Si algún dato no está confirmado, marcar PENDIENTE.
+
+---------------------------------------------------------------------------------------------------------
+Resultado esperado tras implementar el Proyecto
+---------------------------------------------------------------------------------------------------------
+Cada mes el flujo será:
+    • Subir Excel del mes.
+    • Ejecutar “Análisis mensual”.
+    • Ejecutar “Informe Dirección”.
+    • Revisar salida con checklist.
+    • Enviar.
+
+---------------------------------------------------------------------------------------------------------
+T-
+---------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------
+T-
+---------------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------------
+T-
+---------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------
+T-
+---------------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------------
+T-
+---------------------------------------------------------------------------------------------------------

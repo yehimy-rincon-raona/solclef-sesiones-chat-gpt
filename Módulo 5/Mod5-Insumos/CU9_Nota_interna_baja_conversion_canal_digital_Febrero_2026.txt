@@ -1,0 +1,39 @@
+NOTA INTERNA
+Asunto: Seguimiento de baja conversión en canal digital - Febrero 2026
+Fecha: 26/02/2026
+Área: Comercial / Canal Digital
+Uso: Ejemplo ficticio para ejercicio de capacitación
+
+Resumen
+Durante febrero se observó una menor conversión en el canal digital frente al comportamiento esperado del mes. El equipo reporta una reducción en el cierre de oportunidades provenientes de tráfico digital, con mayor impacto en campañas de captación y formularios de contacto.
+
+Hallazgos observados
+- Se detectó una caída en la tasa de conversión del canal digital respecto al nivel de referencia interno del mes anterior.
+- El volumen de visitas no muestra una caída proporcional al descenso en cierres, por lo que la alerta principal está en conversión y no necesariamente en tráfico.
+- Se identificaron fricciones en el recorrido de usuario desde campañas hacia formularios y páginas de contacto.
+- En algunos segmentos se reporta mayor abandono antes del envío de datos.
+- El equipo comercial indica que varios leads recibidos llegaron con menor intención de compra o con información incompleta.
+
+Hipótesis en revisión
+- Posible desalineación entre el mensaje de campaña y la oferta visible en la página de destino.
+- Posibles puntos de fricción en formularios o tiempos de carga en algunas páginas clave.
+- Posible impacto de cambios recientes en pauta, segmentación o calidad del lead.
+
+Aclaraciones importantes
+- Esta nota no confirma causalidad.
+- Los puntos anteriores deben tomarse como señales para análisis y no como conclusión definitiva.
+- Cualquier cruce con resultados de ventas o con incidencias operativas debe validarse con evidencia adicional.
+
+Recomendaciones inmediatas
+- Revisar tasa de conversión por fuente, campaña y página de destino.
+- Validar abandonos en formularios y tiempos de carga en páginas críticas.
+- Comparar calidad de leads de febrero contra enero.
+- Confirmar con el equipo comercial si hubo cambios en tiempos de respuesta o criterios de contacto.
+- Mantener seguimiento semanal hasta confirmar causa principal.
+
+Dato pendiente
+- PENDIENTE: anexar cifras consolidadas del canal digital para enero vs febrero.
+- PENDIENTE: validar si hubo cambios en presupuesto, audiencias o creatividades durante febrero.
+
+Responsable de seguimiento
+Equipo Comercial y Canal Digital

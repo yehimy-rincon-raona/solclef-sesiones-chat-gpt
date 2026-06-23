@@ -1,0 +1,55 @@
+---------------------------------------------------------------------------------------------------------
+Prompt sin rellenar (Plantilla mínima + Aceleradores)
+---------------------------------------------------------------------------------------------------------
+Contexto: Tengo una reunión sobre [tema]. La audiencia es [quién lo leerá]. Restricciones: [qué NO hacer / límites / confidencialidad].
+Rol: Actúa como [rol].
+Objetivo: Necesito un resumen ejecutivo con enfoque de negocio: decisiones, impacto y próximos pasos.
+
+Formato (opcional):
+Entrégalo en:
+
+BLUF (3–5 líneas)
+
+Decisiones (tomadas / pendientes)
+
+Impacto en negocio (tiempo / coste / cliente / riesgo)
+
+Próximos pasos (tabla: Acción | Responsable | Fecha)
+
+Restricciones (opcional): No inventes datos. Máximo 200–300 palabras. Tono ejecutivo y claro. Idioma español.
+Si falta información (opcional): Si faltan datos, marca “PENDIENTE” (no preguntes).
+
+Insumo (pegar aquí):
+[PEGA AQUÍ tus notas o transcripción]
+
+---------------------------------------------------------------------------------------------------------
+Prompt rellenado (con datos ficticios)
+---------------------------------------------------------------------------------------------------------
+
+Contexto: Tengo una reunión de seguimiento del proyecto “Portal Proveedores”. La audiencia es Gerencia de Operaciones. Restricciones: no inventes datos y no incluyas nombres reales (usa [Proveedor] y [Cliente]).
+Rol: Actúa como analista de negocio.
+Objetivo: Necesito un resumen ejecutivo con enfoque de negocio: decisiones, impacto y próximos pasos.
+
+Formato (opcional):
+Entrégalo en:
+• BLUF (3–5 líneas)
+• Decisiones (tomadas / pendientes)
+• Impacto en negocio (tiempo / coste / cliente / riesgo)
+• Próximos pasos (tabla: Acción | Responsable | Fecha)
+• Restricciones (opcional): No inventes datos. Máximo 250 palabras. Tono ejecutivo y claro. Idioma español.
+• Si falta información (opcional): Si faltan datos, marca “PENDIENTE”.
+
+Insumo (pegar aquí):
+“Reunión semanal (30 min). Se revisó avance del Portal Proveedores. El equipo dijo que falta confirmar la fecha de entrega del módulo de pagos. Se mencionó un posible retraso por dependencia con [Proveedor], pero no hay fecha confirmada. Operaciones pidió priorizar el flujo de alta de proveedores porque impacta el inicio de compras del mes. Finanzas pidió estimar si habrá sobrecosto, pero no se definió cifra. Se acordó preparar 2 opciones: (A) lanzar primero alta de proveedores y (B) esperar módulo pagos completo. Quedaron tareas: pedir confirmación a [Proveedor] y armar propuesta para decisión en comité.”
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+T-
+
+---------------------------------------------------------------------------------------------------------

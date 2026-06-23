@@ -1,0 +1,52 @@
+---------------------------------------------------------------------------------------------------------
+Prompt (plantilla mínima – grounding) -> producir una primera salida
+---------------------------------------------------------------------------------------------------------
+Contexto:
+Un colaborador pregunta en qué casos se aceptan devoluciones y qué ocurre si la solicitud se realiza después de 30 días. A continuación se entregan dos documentos oficiales de políticas internas.
+
+Rol:
+Actúa como asistente interno de soporte.
+
+Objetivo:
+Responder la duda usando únicamente los documentos, citando fragmentos como evidencia y aclarando cualquier punto no definido.
+
+Restricciones:
+• No inventes información
+• Usa solo el texto de los documentos
+• Cita fragmentos relevantes
+• Si algo no aparece, indícalo como “NO ESTÁ ESPECIFICADO”
+
+---------------------------------------------------------------------------------------------------------
+Prompt -> mejorar o reestructurar esa salida
+---------------------------------------------------------------------------------------------------------
+
+Mejora la respuesta para que quede lista para compartir internamente.
+
+Requisitos:
+• Divide la salida en 3 partes: respuesta directa, evidencia textual y puntos no especificados
+• Usa bullets cortos
+• Si ambos documentos coinciden, indícalo
+• Si hay diferencia entre documentos, señálala sin interpretarla
+• Mantén un tono claro, neutral y operativo
+
+---------------------------------------------------------------------------------------------------------
+Prompt -> verificarla contra criterios
+---------------------------------------------------------------------------------------------------------
+
+Revisa tu respuesta con este checklist:
+• ¿Cada afirmación está respaldada por un fragmento del documento?
+• ¿Se evitó agregar reglas no escritas?
+• ¿Se marcó como “NO ESTÁ ESPECIFICADO” todo lo que no aparece?
+• ¿La respuesta diferencia claramente hechos vs vacíos?
+Si algo falla, corrígelo.
+
+---------------------------------------------------------------------------------------------------------
+Prompt -> dejar la versión final en el formato pedido
+---------------------------------------------------------------------------------------------------------
+
+Entrega la versión final en este formato:
+
+1. Respuesta breve a la consulta
+2. Evidencia textual por punto
+3. NO ESTÁ ESPECIFICADO
+4. Recomendación de validación humana antes de responder al cliente

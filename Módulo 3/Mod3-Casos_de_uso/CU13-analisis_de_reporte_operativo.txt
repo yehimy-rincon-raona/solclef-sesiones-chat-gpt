@@ -1,0 +1,113 @@
+---------------------------------------------------------------------------------------------------------
+Prompt PASO 1 — SEGMENTAR 👉 Aquí NO resumimos. Solo ordenamos el texto.
+---------------------------------------------------------------------------------------------------------
+Contexto:
+Tengo un reporte operativo mensual y necesito analizarlo sin perder información importante.
+
+Rol:
+Actúa como analista de operaciones.
+
+Objetivo:
+Antes de resumir o analizar, divide el contenido en bloques temáticos útiles para trabajar por partes.
+
+Datos:
+CU13-reporte_operativo.md
+
+Restricciones:
+- No analices todavía.
+- No saques conclusiones.
+- No inventes información.
+- Solo organiza el contenido en secciones lógicas.
+
+Formato:
+Devuélveme:
+1. Lista de bloques sugeridos
+2. Qué incluye cada bloque
+3. Orden recomendado para analizarlos
+
+
+---------------------------------------------------------------------------------------------------------
+PASO 2 — Trabajo por bloques 👉 “KPIs del mes”
+---------------------------------------------------------------------------------------------------------
+Contexto:
+Voy a trabajar el bloque de "KPI del mes".
+
+Rol:
+Actúa como analista de operaciones.
+
+Objetivo:
+Resume este bloque con una estructura fija para no perder datos importantes y facilitar un análisis posterior.
+
+Restricciones:
+- Usa solo la información del bloque.
+- No inventes causas ni explicaciones no sustentadas.
+- Si algo no está claro, marca PENDIENTE.
+- No hagas resumen libre.
+
+Formato de entrega:
+1. Dato clave
+2. Hallazgo principal
+3. Riesgo o impacto
+4. Pendiente / dato faltante
+
+-------------------------------------
+## Cómo se usa este paso
+
+Se repite este patrón para cada bloque:
+
+- Resumen general
+- KPIs del mes
+- Evolución semanal
+- Comentarios por área
+- Riesgos detectados
+- Acciones mencionadas
+- Información faltante o no especificada
+
+
+
+---------------------------------------------------------------------------------------------------------
+PASO 3 — Consolidar los resúmenes 👉 técnica del módulo: reinyectar el resumen como fuente oficial.
+---------------------------------------------------------------------------------------------------------
+Contexto:
+Ya resumí por separado los bloques de un reporte operativo largo.
+
+Rol:
+Actúa como analista de operaciones.
+
+Objetivo:
+Consolidar los resúmenes parciales en una única fuente ordenada, sin mezclar ni reinterpretar.
+
+Datos:
+Toma todos los resultados de cada uno de los bloques cargados actualmente
+
+Restricciones:
+- No inventes información nueva.
+- No mezcles hallazgos con opiniones.
+- Conserva la trazabilidad.
+- Si hay vacíos, mantenlos como PENDIENTE.
+
+Formato:
+Entrega una consolidación única con este orden:
+1. Hechos clave
+2. Desvíos detectados
+3. Riesgos
+4. Pendientes
+5. Acciones mencionadas en el reporte
+
+
+---------------------------------------------------------------------------------------------------------
+PASO 4 — Verificación final 👉 cumple lo que se buscaba: precisión, claridad, trazabilidad y cero inventos.
+---------------------------------------------------------------------------------------------------------
+Revisa tu respuesta final con este checklist:
+
+- ¿Usaste solo la fuente oficial consolidada?
+- ¿Separaste hechos de interpretación?
+- ¿Marcaste PENDIENTE cuando faltó contexto?
+- ¿Priorizaste los hallazgos?
+- ¿La salida quedó breve y accionable?
+- ¿No inventaste causas, responsables ni fechas?
+
+Entrega:
+1. Tabla de verificación: criterio | OK/NO OK | comentario
+2. Correcciones puntuales si aplica
+3. Versión final corregida

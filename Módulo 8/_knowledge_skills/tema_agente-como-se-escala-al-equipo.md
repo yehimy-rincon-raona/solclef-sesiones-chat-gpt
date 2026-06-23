@@ -1,0 +1,8 @@
+# ¿Cómo se escala un agente a todo mi equipo?
+
+Escalar o compartir un agente con tu equipo permite que todos tengan una forma consistente de completar tareas recurrentes, evitando que cada persona reinvente el proceso. Para hacerlo de manera efectiva, debes considerar los siguientes puntos clave:
+
+*   **Sé muy claro en la descripción:** Cuando compartas el agente, asegúrate de explicar explícitamente para qué sirve. La descripción debe detallar qué tarea realiza, cuándo debe utilizarse, qué información de entrada (inputs) necesita recibir y qué tipo de resultado o salida deben esperar los usuarios.
+*   **Alineación con el flujo de trabajo:** Los agentes compartidos funcionan mejor cuando están vinculados a un flujo de trabajo específico y recurrente que tu equipo ya conoce y comprende.
+*   **Incluye prompts de ejemplo:** Proporcionar uno o dos ejemplos de mensajes de inicio (prompts) les dará a tus compañeros un punto de partida claro y facilitará la adopción de la herramienta.
+*   **Verifica los permisos y accesos:** Ten en cuenta que los administradores del espacio de trabajo controlan el acceso a conectores y funciones a través del control de acceso basado en roles (RBAC). Por lo tanto, **debes asegurarte de que tus compañeros tengan los permisos adecuados** para que el agente pueda interactuar con las herramientas conectadas, como Slack, Gmail u otros sistemas que integre tu empresa.

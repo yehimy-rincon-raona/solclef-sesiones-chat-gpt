@@ -1,0 +1,10 @@
+Ticket 3 — Error en carga de documentos
+
+Cliente: Carolina Pérez
+Número de ticket: TK-2063
+Canal: Portal web
+Asunto: Error al adjuntar documentos
+Descripción del caso:
+La cliente intenta cargar documentos en el portal, pero al enviar el formulario aparece un mensaje de error y el proceso no se completa. Probó con dos archivos distintos y el resultado fue el mismo.
+Estado: Abierto
+Área sugerida: Soporte técnico

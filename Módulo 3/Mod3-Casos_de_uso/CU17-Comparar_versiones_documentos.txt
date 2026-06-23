@@ -1,0 +1,57 @@
+---------------------------------------------------------------------------------------------------------
+Prompt -> Prompt inicial
+---------------------------------------------------------------------------------------------------------
+Contexto:
+Tengo dos versiones de una política interna y necesito compararlas antes de aplicarlas o comunicarlas al equipo.
+
+Rol:
+Actúa como analista de documentos corporativos.
+
+Objetivo:
+Comparar ambas versiones para identificar cambios relevantes, inconsistencias y su impacto operativo.
+
+Formato:
+1. Tabla comparativa
+2. Diferencias priorizadas con impacto
+3. Recomendación final
+
+Restricciones:
+- No inventes información
+- Usa solo el contenido proporcionado
+- Marca “NO ESPECIFICADO” cuando un dato no esté presente
+- Distingue cambios de redacción vs cambios de política
+
+---------------------------------------------------------------------------------------------------------
+Prompt -> Prompt de mejora
+---------------------------------------------------------------------------------------------------------
+Mejora la comparación.
+
+Requisitos:
+- Ordena los cambios por nivel de impacto: alto, medio o bajo
+- Explica el efecto práctico de cada cambio en lenguaje simple
+- Enfatiza cambios en plazos, condiciones, aprobaciones y devoluciones
+- No mezcles hechos con interpretación
+- Mantén un tono claro y ejecutivo
+
+---------------------------------------------------------------------------------------------------------
+Prompt -> Prompt de verificación
+---------------------------------------------------------------------------------------------------------
+
+Revisa tu análisis con este checklist:
+- ¿Cada diferencia está respaldada por el texto?
+- ¿Separaste cambios menores de cambios críticos?
+- ¿Explicaste el impacto sin inventar consecuencias no explícitas?
+- ¿Marcaste como “NO ESPECIFICADO” lo que no aparece?
+- ¿La recomendación final se basa en los hallazgos?
+
+Si algo falla, corrígelo.
+
+---------------------------------------------------------------------------------------------------------
+Prompt -> Prompt de versión final
+---------------------------------------------------------------------------------------------------------
+Entrega la versión final en este formato:
+
+1. Tabla comparativa por tema
+2. Top 5 cambios más importantes con impacto
+3. Riesgos o puntos que conviene validar
+4. Recomendación final para decidir si la versión 2 puede comunicarse sin ajustes

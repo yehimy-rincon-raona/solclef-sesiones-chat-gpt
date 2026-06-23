@@ -1,0 +1,138 @@
+---------------------------------------------------------------------------------------------------------
+Caso de uso: Investigación rápida con fuentes verificables (Deep Research)
+---------------------------------------------------------------------------------------------------------
+1. Descripción del caso de uso
+Una empresa quiere entender cómo se está usando la Inteligencia Artificial en España, qué sectores la están adoptando primero, para qué la usan realmente y qué patrones de implementación están siguiendo las empresas (pilotos, copilotos, automatización, etc.), con el fin de tomar decisiones estratégicas informadas.
+
+La persona usuaria no quiere opiniones, sino una investigación basada en fuentes reales, actualizadas y citadas.
+
+2. Objetivo del caso
+Obtener un informe de investigación de mercado, claro y accionable, que permita:
+• Entender el nivel real de adopción de IA en España
+• Identificar usos más frecuentes por tipo de empresa
+• Detectar patrones de implementación empresarial
+• Reducir riesgo de decisiones basadas en “moda” o hype
+
+3. Insumos necesarios
+
+País objetivo: España
+Tema: uso de Inteligencia Artificial en empresas
+Horizonte temporal: últimos 2–3 años
+Funcionalidad: Deep Research
+
+No se requieren datos internos
+
+---------------------------------------------------------------------------------------------------------
+Prompt Paso 1
+---------------------------------------------------------------------------------------------------------
+Actúa como analista senior de mercado especializado en adopción de Inteligencia Artificial en empresas.
+
+Objetivo:
+Realizar una investigación de mercado sobre el uso de la Inteligencia Artificial en España, enfocada en cómo las empresas están implementando esta tecnología en la práctica.
+
+Contexto:
+La investigación será usada para toma de decisiones estratégicas en un entorno corporativo. 
+Debe basarse únicamente en información verificable.
+
+Instrucciones:
+• Analiza fuentes de los últimos 2–3 años.
+• Prioriza estudios, informes y datos de organismos oficiales, consultoras reconocidas y medios especializados.
+• No inventes datos ni conclusiones.
+• Si hay contradicciones entre fuentes, indícalo.
+
+Entrega el informe con las siguientes secciones:
+1. Nivel de adopción de IA en empresas en España
+2. Sectores que más están utilizando IA
+3. Casos de uso más comunes (ejemplos reales)
+4. Formas de implementación (pilotos, copilotos, automatización, etc.)
+5. Barreras y retos más frecuentes
+6. Tendencias claras para los próximos 12–24 meses
+
+Formato:
+• Informe estructurado en secciones
+• Lenguaje claro y no técnico
+• Incluye citas o referencias por sección
+
+
+Si alguna información no está disponible, indícalo claramente.
+
+
+---------------------------------------------------------------------------------------------------------
+Prompt Paso 2
+---------------------------------------------------------------------------------------------------------
+A partir del informe anterior, crea un resumen ejecutivo orientado a líderes de negocio.
+
+Instrucciones:
+• Máximo 1 página.
+• Enfócate en implicaciones estratégicas, no en detalles técnicos.
+• No agregues información nueva.
+• No uses lenguaje académico.
+
+Estructura del resumen:
+• Qué está pasando en España con la IA (en 5 bullets)
+• Cómo lo están haciendo las empresas (patrones claros)
+• Riesgos de no adoptar IA ahora
+• Oportunidades concretas para empresas medianas
+
+Formato:
+Bullets claros y directos.
+---------------------------------------------------------------------------------------------------------
+Prompt Paso 3
+---------------------------------------------------------------------------------------------------------
+Revisa todo el contenido generado hasta ahora y valida lo siguiente:
+
+Checklist de verificación:
+• ¿Todas las afirmaciones están respaldadas por fuentes?
+• ¿Hay cifras sin referencia clara?
+• ¿Se están mezclando opiniones con datos?
+• ¿Algún punto parece especulativo o exagerado?
+
+Entrega:
+• Lista de posibles riesgos o puntos débiles del informe
+• Recomendaciones de qué validar manualmente antes de usarlo en una presentación o decisión ejecutiva
+
+No modifiques el contenido original, solo audítalo.
+
+
+---------------------------------------------------------------------------------------------------------
+Prompt Paso nuevo
+---------------------------------------------------------------------------------------------------------
+
+
+Actúa como analista senior de mercado especializado en adopción empresarial de Inteligencia Artificial.
+
+Objetivo:
+Realizar una investigación sobre cómo las empresas en España están adoptando e implementando IA en la práctica, para apoyar decisiones estratégicas con evidencia verificable.
+
+Contexto:
+El informe será utilizado por líderes de negocio en un entorno corporativo. 
+No se buscan opiniones ni hype, sino patrones reales de adopción, evidencia de uso y señales útiles para decidir inversiones o prioridades.
+
+Alcance:
+- País: España
+- Horizonte temporal: últimos 2–3 años
+- Foco: empresas, no uso individual o académico
+
+Instrucciones:
+- Prioriza fuentes recientes y verificables.
+- Da preferencia a organismos oficiales, informes sectoriales, consultoras reconocidas, asociaciones empresariales y medios especializados confiables.
+- Distingue entre datos confirmados, inferencias y proyecciones.
+- Si encuentras contradicciones entre fuentes, compáralas y explícalas.
+- Si una afirmación no tiene respaldo suficiente, indícalo.
+- Evita generalizaciones no sustentadas.
+
+Entrega el informe con estas secciones:
+1. Nivel de adopción de IA en empresas en España
+2. Sectores con mayor adopción
+3. Casos de uso empresariales más frecuentes
+4. Patrones de implementación (pilotos, copilotos, automatización, integración en procesos, etc.)
+5. Beneficios observados y métricas reportadas, si existen
+6. Barreras y retos más frecuentes
+7. Señales y tendencias probables para los próximos 12–24 meses, indicando nivel de evidencia
+8. Vacíos de información o áreas donde la evidencia sea débil
+
+Formato:
+- Informe estructurado
+- Lenguaje claro y no técnico
+- Citas o referencias por sección
+- Tabla comparativa cuando ayude a entender diferencias entre sectores o patrones

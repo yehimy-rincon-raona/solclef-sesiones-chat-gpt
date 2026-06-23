@@ -1,0 +1,27 @@
+Tarea: Lee el texto y crea un mapa del documento.
+----------------------------------------------
+Instrucciones:
+- Identifica secciones/temas principales y su propósito.
+- Crea un índice con 6-10 puntos.
+- Lista 10 términos clave del documento.
+
+-----------------------------------------------
+Texto:
+[Documento a cargar]
+
+Preguntar acerca de:
+- Secciones / temas principales y propósito
+- Índice
+- Objetivo de la reunión y meta del piloto (28/02)
+- Avance actual del portal (login + formulario)
+- Bloqueo técnico: conector Business Central con fallos intermitentes
+- Riesgo operativo: registros incompletos y documentos por correo
+- Propuesta MVP del formulario (mínimos + obligatorios financieros)
+- Requisito no negociable: RUT y certificación bancaria para habilitar pagos
+- Acciones para diagnóstico: ticket, trazas, caso fallido para replicación
+- Notificaciones y estado "pendiente" con checklist de faltantes
+- Tablero semanal de métricas (entradas, pendientes, tiempo en estado)
+- Acuerdos y próxima revisión (viernes)
+
+---------
+LA IDEA ES QUE: el modelo puede producir un mapa antes de "hacer análisis", evitando saltar a conclusiones.

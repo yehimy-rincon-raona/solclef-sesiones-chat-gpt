@@ -1,0 +1,48 @@
+---------------------------------------------------------------------------------------------------------
+Prompt sin rellenar
+---------------------------------------------------------------------------------------------------------
+Contexto: Tengo notas sueltas de [reunión/llamada/proyecto] y necesito convertirlas en un plan de acción para [audiencia: equipo/jefe/cliente]. Restricciones: no inventes datos y usa lo mínimo necesario.
+
+Rol: Actúa como coordinador/a de proyectos y asistente ejecutivo.
+
+Objetivo: Convierte las notas en un plan de acción claro con tareas, responsables, fechas, prioridades y seguimiento.
+
+Aceleradores (opcional):
+
+Formato: Tabla con columnas: Tema | Tarea | Responsable | Fecha límite | Prioridad | Dependencias | Estado | Notas
+
+Restricciones: Máximo 12 tareas. Usa lenguaje simple. Si hay fechas o responsables no definidos, marca PENDIENTE.
+
+Si falta información: Marca PENDIENTE y al final haz una lista de preguntas mínimas para completar el plan.
+
+Notas sueltas (pegar aquí):
+[PEGA AQUÍ TUS NOTAS]
+
+---------------------------------------------------------------------------------------------------------
+Prompt rellenado
+---------------------------------------------------------------------------------------------------------
+
+Contexto: Tengo notas sueltas de una reunión interna de seguimiento del proyecto “Onboarding Proveedores” y necesito convertirlas en un plan de acción para compartir con el equipo de Operaciones y Compras. Restricciones: no inventes datos y usa lo mínimo necesario.
+
+Rol: Actúa como coordinador/a de proyectos y asistente ejecutivo.
+
+Objetivo: Convierte las notas en un plan de acción claro con tareas, responsables, fechas, prioridades y seguimiento.
+
+Aceleradores:
+
+Formato: Tabla con columnas: Tema | Tarea | Responsable | Fecha límite | Prioridad | Dependencias | Estado | Notas
+
+Restricciones: Máximo 12 tareas. Lenguaje simple. Si faltan fechas o responsables, marca PENDIENTE.
+
+Si falta información: Marca PENDIENTE y al final haz una lista de preguntas mínimas para completar el plan.
+
+Notas sueltas (ejemplo ficticio):
+
+• Falta confirmación de proveedor Andina sobre documentos
+• Revisar plantilla de correo de solicitud de documentos
+• Natalia dijo que el lunes se sube a SharePoint la carpeta “Proveedores 2026”
+• Urgente: el proveedor no respondió a la OC 78421
+• Ajustar checklist: incluir “RUT / cámara de comercio / cuenta bancaria”
+• Definir quién aprueba antes de enviar correo (Compras o Legal?)
+• Reunión de seguimiento el viernes 10am
+• Riesgo: si no llegan docs esta semana, se retrasa el corte

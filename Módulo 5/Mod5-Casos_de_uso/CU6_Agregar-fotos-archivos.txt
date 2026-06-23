@@ -1,0 +1,47 @@
+---------------------------------------------------------------------------------------------------------
+Caso de uso:
+---------------------------------------------------------------------------------------------------------
+Agregar archivos = darle evidencia real a ChatGPT para que trabaje sobre algo concreto, no sobre suposiciones.
+
+Agregar archivos no es “mandar adjuntos”: es darle a ChatGPT el contexto real del trabajo.
+
+Usos típicos
+
+- Resumir documentos
+- Comparar versiones
+- Extraer datos
+- Detectar riesgos
+- Reescribir con reglas
+- Analizar imágenes o evidencias
+- Convertir archivos en acciones concretas
+
+---------------------------------------------------------------------------------------------------------
+Caso de uso 06 
+---------------------------------------------------------------------------------------------------------
+Actúa como consultor/a UX y analiza de forma integral los archivos adjuntos de este proyecto:
+
+PDF: requerimientos del cliente
+Excel: hallazgos UX
+2 referencias visuales: interfaces móviles de referencia
+
+Tu tarea es revisar todo el material en conjunto y generar una síntesis accionable que conecte necesidades del negocio, problemas de experiencia de usuario y dirección de diseño visual.
+
+Necesito que:
+- Resumas los objetivos del cliente.
+- Identifiques los requerimientos funcionales y no funcionales más importantes.
+- Relaciones esos requerimientos con los hallazgos UX, señales riesgos, vacíos, inconsistencias o contradicciones entre los documentos y las referencias.
+- Propongas mejoras o decisiones de diseño priorizadas según impacto.
+
+Consideraciones para el análisis
+- No analices cada archivo de manera aislada; intégralos como parte del mismo contexto.
+- Da prioridad a hallazgos con impacto en usabilidad, accesibilidad, comprensión, eficiencia del flujo y consistencia de la experiencia.
+- Si hay información incompleta o necesitas asumir algo, indícalo explícitamente.
+- No inventes información que no esté sustentada en los archivos.
+
+Entrega la respuesta con esta estructura:
+- Resumen ejecutivo
+- Requerimientos clave
+- Hallazgos UX más críticos
+- Riesgos detectados
+- Recomendaciones priorizadas (alta, media, baja)
+- Próximos pasos sugeridos

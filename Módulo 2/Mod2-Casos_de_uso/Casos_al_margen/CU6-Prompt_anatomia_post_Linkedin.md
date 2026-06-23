@@ -1,0 +1,15 @@
+Rol: Eres estratega de contenido B2B especializado en IA aplicada a negocio.
+Tarea: Escribe un post de LinkedIn sobre "cómo empezar con IA en una empresa sin improvisar".
+Contexto: Audiencia = líderes y gerentes no técnicos. Debe sonar práctico y creíble.
+Formato de salida:
+- Hook (1-2 líneas)
+- 3 ideas principales (bullets)
+- Ejemplo breve (1 mini-caso)
+- Cierre con CTA (pregunta para comentar)
+Restricciones:
+- Máximo 1.300 caracteres.
+- Evita buzzwords vacías ("revolucionario", "game changer").
+- No afirmes datos o cifras si no los entrego.
+Criterios de calidad:
+- Accionable: cada idea debe incluir "qué hacer mañana".
+- Claridad: lenguaje simple, sin tecnicismos innecesarios.

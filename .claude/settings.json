@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(command -v pdftotext)",
+      "Bash(command -v pdfinfo)",
+      "Bash(pdfinfo \"[SOL] Módulo 8 - Solclef - Presentación Chat GPT 2026.pdf\")",
+      "Bash(pdftotext -layout \"[SOL] Módulo 8 - Solclef - Presentación Chat GPT 2026.pdf\" \"/c/Users/YEHIMY~1/AppData/Local/Temp/claude/c--Users-YehimyRinc-n-OneDrive---Raona--1-SOL--Solclef---Capacitaciones-Chat-GPT-2026/3b517441-96c8-4045-b48b-ec5696c9a8a7/scratchpad/mod8.txt\")",
+      "Read(//c/Users/YEHIMY~1/AppData/Local/Temp/claude/c--Users-YehimyRinc-n-OneDrive---Raona--1-SOL--Solclef---Capacitaciones-Chat-GPT-2026/3b517441-96c8-4045-b48b-ec5696c9a8a7/scratchpad/**)",
+      "Bash(find knowledge_agentes -type f)",
+      "Bash(find knowledge_skills -type f)",
+      "Read(//c/Users/YehimyRincón/OneDrive - Raona/**)"
+    ]
+  }
+}

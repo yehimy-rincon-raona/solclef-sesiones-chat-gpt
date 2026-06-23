@@ -1,0 +1,72 @@
+---------------------------------------------------------------------------------------------------------
+# Fase 3 - Configuración
+---------------------------------------------------------------------------------------------------------
+## Objetivo del paso
+
+Convertir la estructura validada en instrucciones listas para montar el GPT.
+
+## Lo que debes conseguir
+
+Al final de esta fase deberias tener:
+
+- una mision clara del GPT
+- instrucciones de comportamiento
+- reglas de seguridad
+- formato de salida
+- dos bloques finales:
+  - `North Star`
+  - `System Prompt`
+
+---------------------------------------------------------------------------------------------------------
+## Prompt de arranque - Fase 3 - Configuración
+---------------------------------------------------------------------------------------------------------
+```text
+Ahora quiero trabajar la fase de configuracion para este GPT.
+Hazlo en este chat normal, sin usar skills, herramientas ni configuraciones externas.
+
+Con base en el descubrimiento y la estructura ya definidos, ayudame a redactar la configuracion del GPT.
+
+Necesito que incluyas:
+
+1. nombre de trabajo
+2. mision
+3. lo que si debe hacer
+4. lo que no debe hacer
+5. entradas minimas que debe pedir
+6. flujo conversacional esperado
+7. reglas de comportamiento
+8. formato de salida final en dos bloques:
+   - North Star
+   - System Prompt
+
+El tono debe ser claro para una audiencia generalista de negocio.
+No inventes capacidades no definidas.
+```
+---------------------------------------------------------------------------------------------------------
+## Prompt de evaluación de respuesta - Fase 3 - Configuración
+---------------------------------------------------------------------------------------------------------
+## Que deberias observar en la respuesta
+
+Antes de dar por buena la configuracion, revisa esto:
+
+- el GPT pregunta antes de asumir
+- el `North Star` aparece antes que el `System Prompt`
+- el `System Prompt` depende del `North Star`
+- no se mezclan hechos y suposiciones
+- el lenguaje sigue siendo claro
+
+## Si quieres pedir una version mas pegable
+
+Usa este mensaje:
+
+```text
+Ahora conviertelo en una version mas lista para pegar en el builder de ChatGPT, sin perder claridad.
+```
+
+## Que debes guardar al final
+
+Guarda:
+
+- la configuracion completa
+- una version corta de la mision
+- la definicion de salida final

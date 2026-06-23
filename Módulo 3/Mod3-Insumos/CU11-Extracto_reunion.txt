@@ -1,0 +1,26 @@
+EXTRACTO DE REUNIÓN DE Seguimiento órdenes de compra
+
+Reunión: Seguimiento órdenes de compra – Proveedor
+Fecha de la reunión: 12 de marzo de 2026
+Área: Compras y Operaciones
+
+Participantes:
+- Ana López (Compras)
+- Carlos Medina (Operaciones)
+- Laura Gómez (Planificación)
+
+Notas de la reunión:
+
+Ana comenta que la orden de compra PO-45821 fue enviada al proveedor Proveedor XYZ la semana pasada, 
+pero hasta el momento no se ha recibido confirmación formal por parte del proveedor.
+
+Carlos menciona que, si la orden no se confirma pronto, podría haber un retraso en la entrega de los 
+materiales necesarios para la operación prevista a fin de mes.
+
+Laura indica que, por ahora, no hay una fecha de entrega confirmada y que tampoco se ha recibido 
+ninguna comunicación adicional del proveedor desde el envío de la orden.
+
+Se acuerda que el equipo de compras debe contactar al proveedor para solicitar la confirmación de la 
+orden de compra y conocer el estado actual.
+
+No se definen nuevas fechas ni compromisos durante la reunión.

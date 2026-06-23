@@ -1,0 +1,40 @@
+# === Videos (archivos pesados) ===
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.m4v
+*.mpg
+*.mpeg
+
+# === Audio pesado ===
+*.wav
+*.flac
+*.aac
+*.m4a
+
+# === Otros archivos pesados / binarios grandes ===
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.iso
+
+# === Archivos temporales del sistema ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.lnk
+
+# === macOS ===
+.DS_Store
+
+# === Archivos temporales de Office ===
+~$*
+*.~*

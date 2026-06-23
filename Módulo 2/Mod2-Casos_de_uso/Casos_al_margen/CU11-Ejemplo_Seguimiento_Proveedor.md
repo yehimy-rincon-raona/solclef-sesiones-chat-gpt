@@ -1,0 +1,11 @@
+REUNIÓN | Seguimiento PO - Proveedor Textiles Nova
+Fecha: 05/02/2026
+Asistentes: Andrea (Compras), Mario (Operaciones), Luisa (Logística)
+
+- Andrea: La PO 78421 se envió el 30/01 pero aún no tenemos confirmación formal del proveedor.
+- Mario: El proveedor dijo por WhatsApp que "sí la tienen", pero no mandó confirmación por correo ni fecha final.
+- Luisa: Necesitamos confirmación antes del viernes 07/02 a las 3:00 pm porque el corte documental es ese día.
+- Andrea: Faltan el pack list y el booking. Sin eso no podemos coordinar el embarque.
+- Mario: Si no confirman, se nos mueve la fecha de entrega al cliente del 20/02 y quedamos mal.
+- Acuerdo: Andrea envía correo hoy solicitando confirmación + fecha compromiso + pack list + booking.
+- Acuerdo: Si el proveedor no responde en 24 horas, se escala a gerencia con copia a operaciones.

@@ -1,0 +1,39 @@
+---------------------------------------------------------------------------------------------------------
+Prompt (mal ejemplo – error típico)
+---------------------------------------------------------------------------------------------------------
+
+Hazme un buen resumen del estado de la PO no confirmada.
+
+---------------------------------------------------------------------------------------------------------
+Prompt corregido con criterios de aceptación (plantilla mínima)
+---------------------------------------------------------------------------------------------------------
+Contexto:
+Necesitamos resumir el estado de una orden de compra no confirmada
+para comunicación interna.
+
+Rol:
+Actúa como analista de operaciones.
+
+Objetivo:
+Evalúa si el resumen cumple criterios de calidad y, si hace falta, entrégame una versión corregida sin inventar información.
+
+Tarea:
+- Revisa el texto contra estos criterios.
+- Indica en una mini tabla si cumple o no cumple.
+- Corrige el resumen manteniendo solo hechos confirmados.
+
+Criterios de revisión:
+- Máximo 5 bullets.
+- Solo hechos confirmados.
+- No inventar fechas, responsables ni compromisos.
+- Marcar como PENDIENTE lo no confirmado.
+- Incluir próximo paso claro.
+- Tono neutral y operativo.
+- Listo para copiar en correo o acta.
+
+Formato de salida:
+Bloque 1: tabla breve “criterio / cumple-no cumple / observación”.
+Bloque 2: versión corregida final.
+
+Regla:
+No expliques tu razonamiento interno. Solo verifica y corrige.

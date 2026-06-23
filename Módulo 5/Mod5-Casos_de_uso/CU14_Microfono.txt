@@ -1,0 +1,70 @@
+---------------------------------------------------------------------------------------------------------
+Caso de uso: Uso del micrófono para dictar ideas en tiempo real
+---------------------------------------------------------------------------------------------------------
+📌 Caso de uso
+
+Uso del micrófono para transformar una idea hablada (desordenada y espontánea) en un entregable estructurado y profesional sin escribir manualmente.
+
+📌 Situación
+
+Una líder de operaciones acaba de salir de una reunión urgente donde se definieron acciones críticas para la semana.
+No tiene tiempo de redactar un correo formal ni un acta estructurada.
+
+Necesita:
+• Capturar la información rápidamente
+• Ordenarla
+• Enviarla al equipo antes de 30 minutos
+• En lugar de escribir, usa el micrófono para dictar todo lo que recuerda.
+
+📌 Objetivos a cumplir
+• Ahorrar tiempo (no escribir todo manualmente)
+• No perder información importante
+• Convertir pensamiento hablado en documento claro
+• Generar un entregable listo para enviar
+• Evitar errores o datos inventados
+
+📌 Qué se espera que pase
+• La persona dicta libremente lo ocurrido en la reunión.
+• ChatGPT transcribe automáticamente.
+• Se usa un prompt estructurado para organizar la información.
+
+Se obtiene:
+• Resumen ejecutivo
+• Lista de decisiones
+• Lista de pendientes con responsables
+• Riesgos identificados
+
+Resultado final: correo listo para enviar en menos de 10 minutos.
+
+---------------------------------------------------------------------------------------------------------
+🎤 Escenario Realista (Dictado)
+---------------------------------------------------------------------------------------------------------
+La persona activa el micrófono y dice:
+
+“Bueno, reunión con mantenimiento hoy a las 9, el tema principal fue el retraso en los repuestos del proveedor Alfa. Nos confirmaron que el sensor Q7 llega tres días tarde, eso afecta la OT-4782. Juan dijo que puede reorganizar el equipo para no frenar todo, pero necesitamos confirmar si el SLA aplica en este caso. También quedó pendiente revisar el stock del KIT-AX14 y hablar con compras antes del viernes. Ah, y riesgo: si no llega el sensor el lunes, se nos cae el cronograma de la semana.”
+
+Ese texto queda transcrito automáticamente.
+
+Aquí es donde entra el prompt estructurado.
+
+---------------------------------------------------------------------------------------------------------
+🧠 Prompt sin rellenar (Plantilla mínima)
+---------------------------------------------------------------------------------------------------------
+Contexto: Tengo una transcripción dictada por voz después de una reunión operativa. Es información hablada, desordenada y no estructurada. Necesito convertirla en un documento claro para enviar al equipo.
+
+Rol: Actúa como asistente ejecutivo especializado en organización de reuniones operativas.
+
+Objetivo: Transformar la transcripción en:
+
+Resumen ejecutivo (máx. 5 líneas)
+• Decisiones tomadas
+• Pendientes con responsables y fechas (si no hay fecha, marcar PENDIENTE)
+• Riesgos identificados
+
+Formato: Estructura clara con títulos y viñetas.
+
+Restricciones:
+• No inventes fechas ni responsables.
+• Si falta información, marca “PENDIENTE”.
+• No agregues interpretaciones que no estén en el texto.
+• Si falta información: marca como PENDIENTE.

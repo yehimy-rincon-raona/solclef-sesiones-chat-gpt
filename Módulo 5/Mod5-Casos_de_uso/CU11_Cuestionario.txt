@@ -1,0 +1,70 @@
+---------------------------------------------------------------------------------------------------------
+Caso de uso: Uso de cuestionario para priorizar tareas del equipo y reducir sobrecarga operativa.
+---------------------------------------------------------------------------------------------------------
+Situación:
+El equipo de operaciones siente que “todo es urgente”. Hay retrasos, estrés y reprocesos.
+La líder del equipo quiere tomar una decisión objetiva sobre qué tareas deben priorizarse esta semana y cuáles pueden esperar.
+
+Objetivos a cumplir:
+• Identificar tareas críticas vs importantes vs delegables.
+• Detectar cuellos de botella.
+• Tomar una decisión concreta de priorización para la semana.
+• Reducir retrabajo y sobrecarga.
+
+Qué se espera que pase:
+• Que, a partir de un cuestionario estructurado, ChatGPT entregue:
+• Una tabla de priorización.
+• Recomendaciones accionables.
+• Una decisión clara sobre qué hacer primero.
+
+Resultado tangible:
+• Un plan semanal priorizado listo para ejecutar.
+
+---------------------------------------------------------------------------------------------------------
+Prompt Paso 1
+---------------------------------------------------------------------------------------------------------
+Contexto:
+Somos un equipo de operaciones de 6 personas en una empresa de energía renovable. 
+Esta semana tenemos 12 tareas abiertas entre reportes regulatorios, seguimiento a proveedores, análisis de datos y coordinación interna.
+El problema es que todo se está tratando como urgente y estamos acumulando retrasos.
+
+Rol:
+Actúa como consultor senior en productividad y gestión de operaciones.
+
+Objetivo:
+Ayudarnos a priorizar las tareas de esta semana mediante un cuestionario diagnóstico que permita clasificarlas por impacto y urgencia, y entregar un plan accionable.
+
+Aceleradores:
+Formato:
+• Primero presenta SOLO un cuestionario diagnóstico (máximo 8 preguntas).
+
+Restricciones:
+• No inventes tareas adicionales.
+• Si falta información clave, marca PENDIENTE.
+• No uses lenguaje técnico complejo.
+
+---------------------------------------------------------------------------------------------------------
+Prompt Paso 2
+---------------------------------------------------------------------------------------------------------
+
+Ahora entrega, con base en la información recolectada en la reunión con los demás empleados:
+• Tabla de priorización (Tarea | Impacto | Urgencia | Riesgo | Recomendación | Orden sugerido).
+• 5 recomendaciones accionables.
+• Lista de tareas que pueden delegarse o postergarse.
+
+Si falta información:
+Haz máximo 5 preguntas antes de generar la tabla final.
+
+Tareas actuales:
+• Reporte regulatorio mensual (fecha límite 18/02/2026).
+• Seguimiento a proveedor de repuestos (retraso de 3 días).
+• Análisis de rendimiento de planta solar.
+• Actualización de cronograma de mantenimiento.
+• Revisión de contrato con proveedor nuevo.
+• Presentación ejecutiva para comité interno.
+• Validación de facturas pendientes (€12,450.75).
+• Actualización de KPI trimestrales.
+• Respuesta a ticket interno crítico.
+• Auditoría interna de cumplimiento.
+• Coordinación de visita técnica.
+• Actualización documental en sistema.

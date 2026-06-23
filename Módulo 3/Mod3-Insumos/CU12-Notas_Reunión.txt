@@ -1,0 +1,20 @@
+REUNIÓN DE PRODUCTO – DEFINICIÓN MVP APP DE RESERVAS
+Fecha: 12/02/2026
+Duración: 1h
+Asistentes: Producto, Diseño, Tecnología, Negocio
+
+NOTAS CRUDAS (SIN ORDEN)
+
+- La app debe permitir reservar espacios por día y por hora.
+- Se comentó que el login será con email y contraseña, nada de redes sociales por ahora.
+- El equipo de negocio pidió que el MVP solo funcione para una ciudad.
+- Se habló de incluir pagos, pero no quedó claro si va en la primera versión.
+- Diseño mencionó que no hay todavía wireframes aprobados.
+- Se decidió que el usuario reciba un email de confirmación al hacer una reserva.
+- Riesgo: no está definido el proveedor de pagos.
+- Pendiente confirmar si se necesitan cancelaciones o cambios de reserva.
+- Tecnología dijo que el desarrollo debería durar máximo 8 semanas, pero depende del alcance final.
+- Se acordó que el MVP no tendrá programa de fidelización.
+- No quedó claro quién valida legalmente los términos y condiciones.
+- Se mencionó que el objetivo principal es validar demanda, no monetizar.
+- Pendiente definir métricas de éxito del MVP.

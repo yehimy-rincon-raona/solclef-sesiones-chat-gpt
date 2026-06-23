@@ -1,0 +1,225 @@
+---------------------------------------------------------------------------------------------
+Caso de uso: Radar Estratégico de Inteligencia Artificial en Notion
+---------------------------------------------------------------------------------------------
+---- NOMBRE DEL EJERCICIO ----
+Usar ChatGPT con Notion para transformar información interna en un entregable ejecutivo
+
+---- OBJETIVO DEL EJERCICIO ----
+Que el participante consulte una fuente en Notion y trabaje por etapas:
+1. encontrar la información correcta
+2. extraer hechos clave
+3. organizar decisiones, pendientes y riesgos
+4. construir el resumen ejecutivo final
+5. verificar calidad
+
+---- LÓGICA DEL EJERCICIO ----
+No pedir todo al tiempo.
+Primero encontrar.
+Luego extraer.
+Luego ordenar.
+Luego redactar.
+Luego verificar.
+
+---- PASO 1 ----
+Ubicar la fuente correcta en Notion
+
+---- OBJETIVO DEL PASO 1 ----
+Que ChatGPT encuentre la página o páginas más relevantes antes de resumir.
+---------------------------------------------------------------------------------------------
+---- PROMPT PASO 1 ----
+---------------------------------------------------------------------------------------------
+Usa mi contenido de Notion para buscar información relacionada con: Optimización del proceso de onboarding de proveedores
+
+No hagas todavía el resumen final.
+
+Primero entrégame solo esto:
+
+1. páginas o fuentes encontradas que parecen más relevantes
+2. por qué cada una parece útil
+3. cuál recomendarías usar como fuente principal
+4. qué información parece faltar desde el inicio
+
+Reglas:
+- usa solo información encontrada en Notion
+- no inventes nada
+- si hay varias páginas parecidas, compáralas brevemente
+- responde en bullets, de forma simple y ejecutiva
+
+---- ENTREGABLE ESPERADO PASO 1 ----
+- lista de páginas relevantes
+- recomendación de fuente principal
+- vacíos detectados
+
+---------------------------------------------------------------------------------------------
+---- PASO 2 ----
+---------------------------------------------------------------------------------------------
+Extraer hechos clave
+
+---- OBJETIVO DEL PASO 2 ----
+Que ChatGPT lea la fuente elegida y extraiga solo hechos, sin interpretar de más.
+
+---------------------------------------------------------------------------------------------
+---- PROMPT PASO 2 ----
+---------------------------------------------------------------------------------------------
+Con base en la página de Notion que seleccionaste como fuente principal, extrae solo los hechos clave.
+
+Entrégame únicamente estas secciones:
+
+1. CONTEXTO
+- máximo 5 bullets
+
+2. OBJETIVO
+- máximo 3 bullets
+
+3. HECHOS CLAVE
+- máximo 8 bullets
+
+4. FECHAS MENCIONADAS
+- lista textual de fechas si existen
+
+5. RESPONSABLES MENCIONADOS
+- lista textual de responsables si existen
+
+Reglas:
+- no hagas todavía resumen ejecutivo
+- no agrupes tareas ni riesgos todavía
+- no inventes datos
+- si algo no aparece, escribe NO ESPECIFICADO
+
+---- ENTREGABLE ESPERADO PASO 2 ----
+- contexto
+- objetivo
+- hechos clave
+- fechas
+- responsables
+
+---------------------------------------------------------------------------------------------
+---- PASO 3 ----
+Organizar la información operativa
+---------------------------------------------------------------------------------------------
+
+---- OBJETIVO DEL PASO 3 ----
+Que ChatGPT convierta los hechos en estructura de seguimiento.
+
+---------------------------------------------------------------------------------------------
+---- PROMPT PASO 3 ----
+---------------------------------------------------------------------------------------------
+Usando únicamente los hechos extraídos antes, organiza la información en estas secciones:
+
+1. DECISIONES TOMADAS
+- solo decisiones confirmadas en la fuente
+
+2. PENDIENTES
+- tarea
+- responsable o PENDIENTE
+- fecha o PENDIENTE
+
+3. RIESGOS O BLOQUEOS
+- riesgo
+- impacto si está explícito
+- estado si está explícito
+
+4. PRÓXIMOS PASOS
+- lista priorizada de 3 a 5 acciones
+
+Reglas:
+- usa solo información de Notion ya identificada
+- no inventes responsables ni fechas
+- no conviertas supuestos en hechos
+- si algo no está claro, marca PENDIENTE o NO ESPECIFICADO
+
+---- ENTREGABLE ESPERADO PASO 3 ----
+- decisiones
+- pendientes
+- riesgos
+- próximos pasos
+
+---------------------------------------------------------------------------------------------
+---- PASO 4 ----
+---------------------------------------------------------------------------------------------
+Construir el resumen ejecutivo
+
+---- OBJETIVO DEL PASO 4 ----
+Que ChatGPT redacte el entregable final para un líder no técnico.
+
+---------------------------------------------------------------------------------------------
+---- PROMPT PASO 4 ----
+---------------------------------------------------------------------------------------------
+Ahora, con base en la información ya organizada, redacta un resumen ejecutivo para un líder no técnico.
+
+Entrégalo con esta estructura exacta:
+
+1. RESUMEN EJECUTIVO
+- máximo 6 bullets
+- lenguaje claro, directo y no técnico
+
+2. DECISIONES CLAVE
+- máximo 5 bullets
+
+3. PENDIENTES CRÍTICOS
+- máximo 5 bullets
+
+4. RIESGOS PRINCIPALES
+- máximo 4 bullets
+
+5. SIGUIENTES ACCIONES
+- máximo 5 bullets
+
+Reglas:
+- no agregues nada nuevo
+- no repitas información innecesariamente
+- mantén tono ejecutivo
+- prioriza claridad y utilidad para toma de decisiones
+
+---- ENTREGABLE ESPERADO PASO 4 ----
+- resumen ejecutivo final listo para compartir
+
+---------------------------------------------------------------------------------------------
+---- PASO 5 ----
+Verificar calidad y vacíos
+---------------------------------------------------------------------------------------------
+
+---- OBJETIVO DEL PASO 5 ----
+Que ChatGPT revise si inventó algo o si dejó huecos sin marcar.
+
+---------------------------------------------------------------------------------------------
+---- PROMPT PASO 5 ----
+---------------------------------------------------------------------------------------------
+Audita la respuesta final usando estas reglas:
+
+1. no inventar información
+2. no mezclar hechos con suposiciones
+3. marcar datos faltantes como PENDIENTE o NO ESPECIFICADO
+4. mantener lenguaje ejecutivo
+5. asegurar coherencia entre decisiones, pendientes y próximos pasos
+
+Devuélveme solo esto:
+
+1. ERRORES O RIESGOS DETECTADOS
+2. AJUSTES RECOMENDADOS
+3. VERSIÓN CORREGIDA
+4. INFORMACIÓN FALTANTE QUE DEBERÍA COMPLETARSE MANUALMENTE
+
+---- ENTREGABLE ESPERADO PASO 5 ----
+- validación final
+- versión corregida
+- lista de vacíos
+
+---- VERSIÓN CORTA DEL FLUJO PARA CLASE ----
+Paso 1: encontrar fuente
+Paso 2: extraer hechos
+Paso 3: ordenar decisiones, pendientes y riesgos
+Paso 4: redactar resumen ejecutivo
+Paso 5: verificar calidad
+
+---- QUÉ EXPLICA ---
+- Primero buscamos la fuente correcta.
+- Después extraemos hechos.
+- Luego organizamos la información.
+- Solo al final redactamos el entregable.
+- Así reducimos errores y evitamos que el modelo invente.
+
+
+---- REGLA CLAVE ----
+Un paso = un objetivo.
+Un prompt = un entregable.

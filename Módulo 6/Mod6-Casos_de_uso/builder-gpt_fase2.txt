@@ -1,0 +1,76 @@
+---------------------------------------------------------------------------------------------------------
+# Fase 2 - Estructura
+---------------------------------------------------------------------------------------------------------
+## Objetivo del paso
+
+Definir como debe comportarse el GPT y como debe construir el `North Star`.
+
+## Lo que debes conseguir
+
+Al cerrar esta fase deberia estar claro:
+
+- cual es el rol del GPT
+- que hace y que no hace
+- como pregunta
+- como propone opciones
+- como separa confirmado y pendiente
+- como organiza la salida
+
+---------------------------------------------------------------------------------------------------------
+## Prompt de arranque - Fase 2 - Estructura
+---------------------------------------------------------------------------------------------------------
+```text
+Ahora quiero trabajar la fase de estructura para este GPT.
+Hazlo en este chat normal, sin usar skills, herramientas ni configuraciones externas.
+
+Con base en el descubrimiento ya trabajado, ayudame a definir la estructura del GPT.
+
+Quiero que propongas:
+
+1. su rol exacto
+2. lo que si debe hacer
+3. lo que no debe hacer
+4. la secuencia ideal de conversacion
+5. la estructura del North Star
+6. las reglas para no inventar
+7. la forma correcta de separar confirmado, supuesto y pendiente
+
+Usa lenguaje claro y orientado a negocio.
+No redactes todavia la configuracion final.
+```
+---------------------------------------------------------------------------------------------------------
+## Prompt de evaluación de respuesta - Fase 2 - Estructura
+---------------------------------------------------------------------------------------------------------
+## Que deberias observar en la respuesta
+
+Comprueba que la estructura incluya al menos:
+
+- nombre o tipo de proyecto
+- objetivo
+- usuario objetivo
+- tareas principales
+- entradas
+- salidas
+- alcance
+- fuera de alcance
+- datos permitidos
+- datos prohibidos
+- reglas basicas de seguridad
+- criterios de exito
+
+## Si la salida queda muy abstracta
+
+Pega este mensaje:
+
+```text
+Bajalo a una estructura mas operativa.
+Quiero bloques concretos que luego podamos convertir en configuracion de GPT.
+```
+
+## Que debes guardar al final
+
+Guarda una version clara de:
+- rol del GPT
+- flujo conversacional
+- bloques del `North Star`
+- reglas de comportamiento

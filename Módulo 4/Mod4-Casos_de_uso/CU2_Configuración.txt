@@ -1,0 +1,35 @@
+---------------------------------------------------------------------------------------------------------
+Caso de uso:
+---------------------------------------------------------------------------------------------------------
+Personalizar ChatGPT para recibir respuestas alineadas al rol, estilo y necesidades del usuario sin repetir contexto en cada chat.
+
+Se le puede calibrar a un formato más corporativo, más académico o más conversacional.
+
+
+
+---------------------------------------------------------------------------------------------------------
+Ejemplo(s)
+---------------------------------------------------------------------------------------------------------
+1. Consultora UXUX
+
+Ejemplo: una consultora UX/UI configura sus instrucciones personalizadas para que ChatGPT responda con un tono consultivo, estructura clara y ejemplos aplicados a negocio, investigación, experiencia de usuario y transformación digital. 
+
+(Así obtiene respuestas más útiles, alineadas con su trabajo y sin repetir contexto en cada conversación).
+
+2. Perfil estudiante
+
+Ejemplo: un estudiante universitario personaliza ChatGPT para recibir explicaciones sencillas, ejemplos paso a paso y resúmenes claros de temas complejos. 
+
+(De esta forma puede estudiar más rápido, entender mejor los conceptos y adaptar las respuestas a su nivel de aprendizaje.)
+
+3. Perfil líder de equipo
+
+Ejemplo: un líder de equipo o gerente configura ChatGPT para obtener respuestas ejecutivas, concretas y orientadas a la toma de decisiones. 
+
+(Así puede usarlo para preparar reuniones, organizar ideas, redactar mensajes profesionales y analizar información de forma más ágil).
+
+4. Perfil comercial
+
+Ejemplo: un profesional del área comercial o ventas ajusta ChatGPT para recibir respuestas persuasivas, enfocadas en clientes y con propuestas de valor claras. 
+
+(Esto le ayuda a redactar correos, preparar discursos de venta, responder objeciones y comunicar beneficios de manera más efectiva).

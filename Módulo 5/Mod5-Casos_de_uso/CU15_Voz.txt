@@ -1,0 +1,95 @@
+---------------------------------------------------------------------------------------------------------
+Caso de uso: Uso de Voz para preparar una reunión ejecutiva sin escribir prompts largos
+---------------------------------------------------------------------------------------------------------
+Caso de uso: Preparar un resumen ejecutivo y discurso clave para una reunión urgente utilizando conversación por voz con ChatGPT.
+
+Situación: María es gerente de Operaciones. En 30 minutos tiene una reunión con Dirección porque hubo retrasos en entregas críticas.
+
+Tiene:
+• Notas sueltas en su libreta.
+• Algunos datos en mente.
+• Poco tiempo para estructurar el mensaje.
+• No quiere escribir prompts largos.
+• Decide usar el modo voz para:
+• Pensar en voz alta.
+• Ordenar ideas.
+• Simular preguntas difíciles.
+• Practicar su mensaje.
+
+Objetivos a cumplir:
+
+• Transformar ideas desordenadas en un mensaje ejecutivo claro.
+• Obtener un resumen tipo BLUF (Bottom Line Up Front).
+• Identificar riesgos y preguntas posibles.
+• Practicar respuestas antes de la reunión.
+
+Qué se espera que pase:
+Al finalizar la conversación por voz:
+María tiene:
+• Un resumen ejecutivo claro.
+• 3 riesgos identificados.
+• 3 preguntas difíciles posibles.
+• Respuestas ensayadas.
+• Se siente más segura.
+• Reduce improvisación.
+• Mejora claridad y estructura.
+
+---------------------------------------------------------------------------------------------------------
+Guión 1
+---------------------------------------------------------------------------------------------------------
+“Hola, tengo una reunión en 30 minutos con el comité directivo.
+El proyecto Solar Norte tiene un retraso de tres semanas porque el proveedor de inversores no entregó a tiempo.
+Estoy un poco nerviosa y tengo las ideas desordenadas.
+Necesito que me ayudes a estructurar el mensaje para que sea claro y ejecutivo.”
+
+---------------------------------------------------------------------------------------------------------
+Guión 2
+---------------------------------------------------------------------------------------------------------
+“Sí, hay riesgo de penalización.
+Sí afecta la fecha final si no actuamos.
+Y estamos negociando entregas parciales para reducir impacto.”
+
+---------------------------------------------------------------------------------------------------------
+Guión 3
+---------------------------------------------------------------------------------------------------------
+“Hazlo más ejecutivo. Máximo 4 bullets. Que pueda decirlo en menos de un minuto.”
+
+---------------------------------------------------------------------------------------------------------
+Guión 4
+---------------------------------------------------------------------------------------------------------
+“Ahora actúa como el CFO. Hazme tres preguntas incómodas.”
+
+---------------------------------------------------------------------------------------------------------
+Guión 5
+---------------------------------------------------------------------------------------------------------
+“Voy a responder la primera:
+No anticipamos el retraso porque el proveedor confirmó cumplimiento hasta una semana antes del hito.”
+
+---------------------------------------------------------------------------------------------------------
+Guión 6
+---------------------------------------------------------------------------------------------------------
+“Dame una frase final fuerte para cerrar la reunión.”
+
+
+
+
+“¿Qué pasó aquí?”
+✔ Pensé en voz alta.
+✔ Ordené ideas.
+✔ Simplifiqué mensaje.
+✔ Simulé preguntas difíciles.
+✔ Practiqué respuestas.
+✔ Reduje ansiedad.
+
+Todo en menos de 5 minutos.
+
+🎯 Mensaje clave para la audiencia
+
+La voz es ideal cuando:
+• No tienes claridad mental.
+• Estás nervioso.
+• No quieres escribir.
+• Necesitas practicar.
+• Necesitas estructurar rápido.
+• No reemplaza tu criterio.
+• Te ayuda a pensar mejor.

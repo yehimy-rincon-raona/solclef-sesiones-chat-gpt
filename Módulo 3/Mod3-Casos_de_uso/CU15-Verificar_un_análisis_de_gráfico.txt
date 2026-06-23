@@ -1,0 +1,44 @@
+---------------------------------------------------------------------------------------------------------
+Prompt
+---------------------------------------------------------------------------------------------------------
+Contexto:
+Necesito revisar el análisis preliminar de un gráfico incluido como imagen.
+Voy a darte dos insumos:
+1. una imagen de un gráfico
+2. un análisis preliminar ya redactado por otra persona
+
+Tu tarea NO es analizar el gráfico desde cero.
+Tu tarea es auditar el análisis preliminar usando la imagen como referencia.
+
+Objetivo:
+Verificar si la interpretación preliminar está realmente sustentada por lo que se observa en el gráfico y corregir solo lo necesario para que pueda usarse en un reporte.
+
+Instrucciones:
+- Compara el análisis preliminar contra la imagen.
+- Identifica qué afirmaciones sí están respaldadas por el gráfico.
+- Señala qué partes son dudosas, exageradas o no demostrables solo con la imagen.
+- No inventes causas, responsables ni explicaciones externas.
+- No conviertas una observación en una conclusión causal.
+- Si algo no puede verificarse únicamente con la imagen, escribe PENDIENTE.
+
+Checklist de validación:
+- ¿Describe correctamente la tendencia general?
+- ¿Compara bien los periodos o categorías visibles?
+- ¿Distingue observación de interpretación?
+- ¿Evita inventar causas o explicaciones no visibles?
+- ¿Usa lenguaje prudente cuando no hay evidencia suficiente?
+- ¿Deja claros los límites de lo que sí puede afirmarse?
+
+Entrega la respuesta en este formato:
+
+1. Tabla de validación: criterio | cumple / no cumple | observación 
+
+2. Hallazgos a corregir: Lista breve con los puntos del análisis preliminar que deben ajustarse o eliminarse.
+
+3. Versión corregida del análisis: Redáctala en 4 a 6 bullets, con tono técnico, claro y prudente, lista para usar en un reporte.
+
+Restricciones:
+- Usa solo lo visible en la imagen y el contenido del análisis preliminar.
+- No agregues contexto externo.
+- No repitas el análisis original, se debe analizar con argumentos.
+- Corrige únicamente lo que sea necesario.

@@ -1,0 +1,24 @@
+-------------------------------------------------------------------
+Prompt (Requiere de documentos externos)
+1. Se pega el extracto de política (o enlace si lo tienen transcrito).
+2. Se pide respuesta citando el fragmento exacto.
+3. Se pide “qué falta” si no está.
+-------------------------------------------------------------------
+
+Actúa como asistente de operaciones.
+Responde SOLO con base en la política incluida. 
+Si la respuesta no está explícita, responde: "NO ESTÁ EN LA POLÍTICA" y propone 2 preguntas para aclarar.
+
+Formato:
+- Respuesta:
+- Evidencia (citas textuales cortas):
+- Implicaciones / pasos:
+- Preguntas abiertas:
+
+Política:
+<<<
+[pega aquí la política]
+>>>
+
+Pregunta:
+¿En qué casos se acepta devolución después de 30 días?

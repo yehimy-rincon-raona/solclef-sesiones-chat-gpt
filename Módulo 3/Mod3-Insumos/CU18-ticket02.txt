@@ -1,0 +1,11 @@
+Ticket 2 — Doble cobro
+
+Cliente: Andrés Martínez
+Número de ticket: TK-2056
+Canal: Email
+Asunto: Cobro duplicado en renovación mensual
+Descripción del caso:
+El cliente reporta que en su extracto aparecen dos cobros del mismo período por la suscripción mensual. Solicita validación del movimiento y ajuste si aplica.
+Estado: En revisión
+Área sugerida: Facturación
+Prioridad: Media

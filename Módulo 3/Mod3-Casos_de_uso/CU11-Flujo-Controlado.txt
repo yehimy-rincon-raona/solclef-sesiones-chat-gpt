@@ -1,0 +1,64 @@
+---------------------------------------------------------------------------------------------------------
+Paso 1 — Extracción de hechos
+---------------------------------------------------------------------------------------------------------
+Actúa como asistente de compras.
+
+Voy a pegar un extracto de una reunión interna sobre una orden de compra que aún no ha sido confirmada por un proveedor.
+
+Tu tarea es leer el texto y extraer ÚNICAMENTE información clara, explícita y comprobable.
+No interpretes, no completes huecos y no propongas soluciones.
+
+Devuelve la respuesta en este formato:
+
+- Proveedor:
+- Número de orden de compra:
+- Qué está pasando actualmente:
+- Riesgos mencionados:
+- Fechas mencionadas:
+- Información que falta:
+
+Reglas:
+- Si un dato no aparece de forma explícita, escribe: PENDIENTE.
+- No inventes nombres, fechas, compromisos ni responsables.
+- Usa un español claro y directo.
+- No redactes todavía el correo.
+
+Texto de la reunión:
+[PEGAR AQUÍ EL EXTRACTO DE LA REUNIÓN]
+
+
+---------------------------------------------------------------------------------------------------------
+Paso 2 — Definir y Redactar el correo
+---------------------------------------------------------------------------------------------------------
+Ahora redacta un correo al proveedor con base únicamente en la información anterior.
+
+Objetivo: solicitar confirmación de la orden de compra.
+Usa solo los datos ya extraídos en esta conversación.
+No inventes fechas, promesas, responsables ni próximos pasos no confirmados.
+Si falta un dato importante, déjalo indicado como PENDIENTE o evita afirmarlo.
+
+Entrega en este formato:
+
+Asunto:
+[CORTO Y CLARO]
+
+Cuerpo del mensaje:
+[EMAIL EN ESPAÑOL CLARO, FIRME Y PROFESIONAL]
+
+Cierre:
+[CIERRE CORDIAL]
+
+---------------------------------------------------------------------------------------------------------
+Paso 3 — Versión breve para Teams/Slack
+---------------------------------------------------------------------------------------------------------
+Ahora convierte este caso en un mensaje breve para Teams o Slack dirigido al equipo interno.
+
+Objetivo: informar el estado de la orden de compra de forma breve y clara.
+
+Reglas:
+- Máximo 5 líneas.
+- Usa solo la información ya trabajada.
+- No inventes datos.
+- Si falta algo importante, indícalo como PENDIENTE.
+
+Entrega el mensaje listo para enviar.

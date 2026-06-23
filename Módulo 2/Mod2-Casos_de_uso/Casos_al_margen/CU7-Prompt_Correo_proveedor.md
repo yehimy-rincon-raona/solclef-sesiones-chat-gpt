@@ -1,0 +1,20 @@
+Rol: Actúa como responsable de compras corporativas.
+["Actúa como Responsable de Compras Corporativas. Escribe con tono firme, profesional y cordial, priorizando claridad, confirmación y próximos pasos sin inventar fechas."]
+
+Objetivo: Redactar un correo de seguimiento para solicitar confirmación de una orden.
+Contexto: El proveedor no ha confirmado. Necesito firmeza sin agresividad.
+Datos:
+- Empresa: Cary Bags
+- Proveedor: [Nombre]
+- Orden: PO-1842
+- Fecha de envío de la PO: 29/01/2026
+- Solicitud: confirmar disponibilidad y fecha estimada de despacho
+Formato:
+- Asunto
+- Cuerpo (120-160 palabras)
+- Cierre con llamada a la acción
+Restricciones:
+- No inventes fechas de entrega.
+- No uses lenguaje amenazante.
+Entrega:
+- Genera 2 versiones: (A) firme y directa, (B) cordial y negociadora.

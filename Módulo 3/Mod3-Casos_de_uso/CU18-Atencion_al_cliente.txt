@@ -1,0 +1,68 @@
+---------------------------------------------------------------------------------------------------------
+Prompt base reutilizable
+
+El problema: “En soporte, cada agente resume los tickets distinto. Eso complica clasificar casos en el CRM.”
+
+Se deben ejecutar uno por uno, no los tres al tiempo.
+---------------------------------------------------------------------------------------------------------
+Contexto:
+Tengo varios tickets de atención al cliente y necesito convertirlos en una salida estructurada y consistente para su clasificación inicial.
+
+Rol:
+Actúa como analista de soporte al cliente.
+
+Objetivo: Analiza todos los tickets y entregar una salida breve, clara y útil para clasificar el caso en el pipeline del CRM.
+
+Instrucciones:
+- Analiza cada ticket por separado.
+- No mezcles información entre ellos.
+- Usa solo la información que aparece en cada ticket.
+
+Lee los tickets compartidos y devuelve únicamente estos campos como formato de salida:
+- Resumen del caso
+- Resumen breve y fácil de escanear
+- Tono neutral y operativo
+- Categoría sugerida
+- Prioridad sugerida
+- Acción siguiente recomendada
+- Tipo de respuesta
+- Misma estructura para todos los tickets
+- Una ficha separada por cada ticket
+
+Restricciones:
+- Analiza cada ticket por separado
+- Usa solo lo que aparece en los tickets cargados
+- No mezcles información entre tickets
+- No agregues políticas ni soluciones no mencionadas
+- No inventes información, datos, causas, soluciones ni políticas.
+- Si falta algún dato importante y en la información no está disponible, NO LO INVENTES, escribe: PENDIENTE.
+- Mantén un tono neutral y operativo
+- El resumen debe ser breve y fácil de escanear
+- No inventes datos, marca con PENDIENTE si la información no está disponible.
+
+---------------------------------------------------------------------------------------------------------
+Prompt para hacer debugging con variables (debugging de manejo de variables y fallback de datos.)
+---------------------------------------------------------------------------------------------------------
+
+Con base en los tickets que ya analizaste en este chat, rehace la salida con una lógica más controlada para clasificar la prioridad.
+
+Tu tarea no es responder al cliente.
+Tu tarea es convertir cada ticket en una ficha breve, clara y estandarizada para revisión interna y clasificación en el CRM.
+
+Instrucciones:
+- Dato faltante del ticket → escribir PENDIENTE
+- Variable técnica como {{criterio_prioridad}}
+
+Para cada ticket, entrega exactamente el formato, las intrucciones y restricciones solicitadas anteriormente.
+
+Importante:
+- Mantén consistencia entre los 3 casos
+- Si cambias la prioridad frente a la versión anterior, debe ser por aplicación del criterio indicado, no por intuición
+
+Restricciones adicionales:
+- Distingue entre información faltante del ticket y variables técnicas del prompt.
+- Prioridad sugerida: usar la prioridad recibida desde el CRM si está disponible. Si no está disponible, usar {{criterio_prioridad}}.
+- Si {{criterio_prioridad}} no está resuelta, mantenerla literal.
+- No inferir ni completar la prioridad manualmente.
+- PENDIENTE solo se usa cuando falta un dato del contenido del ticket.
+- No trates placeholders del prompt como ausencia de información.

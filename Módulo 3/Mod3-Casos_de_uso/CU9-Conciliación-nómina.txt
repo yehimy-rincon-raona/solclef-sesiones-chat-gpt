@@ -1,0 +1,78 @@
+---------------------------------------------------------------------------------------------------------
+Paso 1 — Prompt inicial (con XML / delimitadores)
+---------------------------------------------------------------------------------------------------------
+<rol>Analista de nómina (RRHH + Finanzas)</rol>
+
+<objetivo>
+Conciliar la PRE-NÓMINA contra la NÓMINA FINAL y detectar diferencias
+por empleado y por concepto, sin inventar datos.
+</objetivo>
+
+<reglas>
+<regla>Usar exclusivamente los datos contenidos en los archivos Excel referenciados dentro del nodo <datos>.</regla>
+<regla>No inventar, estimar, completar ni asumir información.</regla>
+<regla>Si un dato necesario para la comparación no existe en los Excel, marcar el caso como PENDIENTE e indicar qué falta.</regla>
+<regla>La comparación debe ser estrictamente 1 a 1 por Empleado + ID + Concepto.</regla>
+<regla>Calcular Diferencia = NominaFinal - PreNomina.</regla>
+<regla>No aplicar políticas si no están explícitamente definidas.</regla>
+<regla>Empresa en España.</regla>
+<regla>Moneda EUR (€).</regla>
+</reglas>
+
+<formato_salida>
+<tabla>
+Empleado | ID | Concepto | Pre-nómina (€) | Nómina final (€) | Diferencia (€) | Posible causa | Acción sugerida | Estado (OK / REVISAR / PENDIENTE)
+</tabla>
+<pendientes>
+Listar todos los datos faltantes de forma explícita.
+</pendientes>
+<correo>
+Borrador de correo interno a RRHH / Finanzas (máx. 120 palabras, tono profesional y cordial).
+</correo>
+</formato_salida>
+
+<contexto>
+<pais>España</pais>
+<moneda>EUR (€)</moneda>
+<periodo>[MES/AÑO]</periodo>
+</contexto>
+
+<datos>
+Archivos cargados en Excel
+<notas_politicas>
+    <!-- Si no existen, indicar explícitamente "NO APLICA" -->
+</notas_politicas>
+</datos>
+
+---------------------------------------------------------------------------------------------------------
+Paso 2 — Prompt de mejora (calidad + consistencia)
+---------------------------------------------------------------------------------------------------------
+Mejora tu respuesta con estas reglas:
+- Revisa que la tabla tenga TODOS los empleados que aparecen en PRE_NOMINA y NOMINA_FINAL.
+- Normaliza conceptos (ej. “Horas extra”, “HE”, “Overtime” → “Horas extra”).
+- Señala cualquier ambigüedad (ej. concepto aparece en uno y no en otro).
+- En “Posible causa”, NO especules: usa lenguaje tipo “podría ser” o deja PENDIENTE si no hay evidencia.
+- Mantén el correo en máximo 120 palabras y con 3 bullets de acciones concretas.
+
+Devuelve de nuevo:
+1) Tabla
+2) PENDIENTES
+3) Correo
+
+---------------------------------------------------------------------------------------------------------
+Paso 3 — Prompt de verificación (chequeo / riesgos / consistencia)
+---------------------------------------------------------------------------------------------------------
+Verifica tu propia salida contra este checklist y reporta “OK / NO OK”:
+
+CHECKLIST:
+- ¿Inventaste algún valor numérico? (debe ser NO)
+- ¿Usaste solo datos de <datos>? (debe ser SÍ)
+- ¿Todas las diferencias están calculadas correctamente? (si no puedes calcular, marca PENDIENTE)
+- ¿El correo pide validación sin prometer correcciones ya hechas? (debe ser SÍ)
+- ¿Moneda y formato en EUR (€) consistente? (debe ser SÍ)
+
+Entrega:
+A) Tabla de verificación (ítem | OK/NO OK | nota)
+B) Lista de correcciones puntuales (máx 5)
+C) Versión final corregida (tabla + pendientes + correo)
+

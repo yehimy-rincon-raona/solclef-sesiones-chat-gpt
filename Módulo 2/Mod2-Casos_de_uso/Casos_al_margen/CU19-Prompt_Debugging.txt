@@ -1,0 +1,64 @@
+-------------------------------------------------------------------
+Caso: el modelo responde largo y sin estructura. Lo “arreglamos” con plantilla.
+- Mostrar prompt malo (vago).
+- Reescribirlo con plantilla.
+- Validar con checklist.
+-------------------------------------------------------------------
+
+Rol: Eres [rol experto].
+Objetivo: [qué debo lograr].
+Contexto: [para quién, para qué se usará].
+Datos disponibles:
+<<<
+[pegar información]
+>>>
+Restricciones:
+- No inventes datos.
+- Si falta información, pregunta o marca PENDIENTE.
+Formato de salida:
+1) ...
+2) ...
+Criterios de aceptación:
+- ...
+- ...
+
+-------------------------------------------------------------------
+Prompt Ejecutandose con los dos documentos del ejemplo 18
+-------------------------------------------------------------------
+Rol: Eres auditor de políticas operativas y analista de riesgos.
+Objetivo: Comparar dos versiones de una política y detectar diferencias relevantes, evaluando su impacto operativo y riesgo.
+
+Contexto: Esto se usará para un comité interno (Operaciones + Soporte) que debe decidir si adopta la v2 o mantiene la v1.
+
+Datos disponibles:
+<<<
+Documento 1: Política de Operaciones y Servicio — Versión 1 (Vigencia 15 enero 2026)
+- Devoluciones: 30 días desde entrega. Reembolso estándar: sí si cumple condiciones e inspección favorable. Post-plazo: cambio/crédito con aprobación soporte.
+- Garantía: prioridad reemplazo; si no inventario, reparación. Reembolso si no alternativa viable en 10 días hábiles.
+- Soporte: meta 24-48h hábiles; en picos acuse y resolución hasta 72h.
+- Envíos: reprogramación si retrasos terceros; cancelación 
+posible antes de alistamiento final.
+- Escalamiento: Soporte N2 aprueba excepciones; disputas a Operaciones con evidencia.
+
+Documento 2: Política de Operaciones y Servicio — Versión 2 (Vigencia 10 febrero 2026)
+- Devoluciones: 20 días desde entrega. Reembolso estándar: solo por defecto verificable o error de despacho. Alternativa preferente: crédito en tienda.
+- Garantía: prioridad reparación (si viable) y luego reemplazo. Si no se resuelve en 7 días hábiles, reemplazo o reembolso según disponibilidad. Requiere evidencia (fotos) antes de autorizar logística inversa.
+- Soporte: primer contacto en 24h hábiles; resolución estándar 48h; en picos actualización diaria.
+- Envíos: reprogramación si retrasos terceros; cancelación solo si no ha sido facturado.
+- Escalamiento: Soporte N2 requiere aprobación de Operaciones si implica reembolso; evidencia mínima para evaluación.
+>>>
+
+Restricciones:
+- No inventes información fuera de los documentos.
+- Si una diferencia no es explícita, marca NO ESPECIFICADO.
+- Prioriza diferencias que cambien reglas (ventanas, condiciones, aprobaciones, tiempos).
+
+Formato de salida:
+1) Tabla de diferencias con columnas:
+   - Tema / v1 / v2 / Diferencia clave / Impacto (alto-medio-bajo) / Riesgo / Nota operativa
+2) Top 3 cambios más críticos con recomendación (adoptar v2, mantener v1 o híbrido) y por qué.
+
+Criterios de aceptación:
+- Mínimo 10 diferencias reales.
+- Impacto y riesgo deben ser coherentes con operaciones y soporte.
+- Redacción ejecutiva y accionable.

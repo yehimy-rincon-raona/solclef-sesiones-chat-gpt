@@ -1,0 +1,54 @@
+---------------------------------------------------------------------------------------------------------
+Caso de uso:
+---------------------------------------------------------------------------------------------------------
+Regla práctica -> Una buena tarea programada = disparador + fuente + acción + formato esperado
+
+Usar Programaciones para que ChatGPT ejecute una tarea más adelante o de forma recurrente, sin que tengas que volver a pedirla.
+
+La idea simple es:
+tú defines la tarea una vez, y ChatGPT la recuerda para ejecutarla en el momento indicado.
+
+Las Programaciones permiten que ChatGPT ejecute una tarea automáticamente en el futuro.
+Son útiles para recordatorios, revisiones periódicas, resúmenes y seguimiento.
+Ejemplo: “Todos los lunes a las 8:00, recuérdame revisar prioridades y pendientes de la semana.”
+Se crean desde una conversación y luego se gestionan en Administrar.
+
+----
+
+Laura, Consultora UX/UI
+
+Laura trabaja con varios frentes al tiempo y necesita apoyo para no perder seguimiento de tareas repetitivas.
+
+Usa Programaciones para que ChatGPT le ayude con acciones que se repiten o que deben ocurrir después.
+
+Laura le dice a ChatGPT:
+
+Recuérdame todos los lunes a las 8:00 a revisar prioridades de la semana y organizar mis pendientes.
+
+Después, desde el menú del mensaje, selecciona Programar y define:
+
+cuándo empieza,
+cada cuánto se repite,
+y qué debe hacer ChatGPT.
+
+👉 Resultado: ChatGPT le enviará esa ayuda en el momento programado, sin que Laura vuelva a escribirlo.
+
+--------------------------------------------------------------------------------------------------------
+Ejemplo(s) 
+---------------------------------------------------------------------------------------------------------
+
+1) Noticias de mercado
+
+Cada lunes a las 8:00 a. m., consulta la web y tráeme un resumen de las 3 noticias más relevantes de la semana sobre transformación digital en empresas, incluyendo titular, fuente y una explicación breve de por qué importa.
+
+2) Seguimiento de una empresa
+
+Todos los viernes a las 6:00 p. m., busca en la web noticias recientes sobre Microsoft y entrégame un resumen con: titular, medio, fecha y posible impacto para negocio.
+
+3) Seguimiento de una tecnología
+
+Cada martes a las 7:30 a. m., revisa la web y compárteme novedades sobre ChatGPT, Copilot y Gemini. Organiza la respuesta por herramienta e incluye enlaces o fuentes.
+
+4) Noticias de un sector específico
+
+Todos los lunes a las 7:00 a. m., consulta noticias en la web sobre banca digital en Latinoamérica y resume las 5 más relevantes con fuente, país y tema principal.

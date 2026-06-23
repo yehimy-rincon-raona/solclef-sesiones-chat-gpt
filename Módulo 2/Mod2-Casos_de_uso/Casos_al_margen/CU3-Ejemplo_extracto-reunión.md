@@ -1,0 +1,30 @@
+Extracto de reunión (ficticia) — "Seguimiento implementación portal de proveedores"
+
+Fecha: 12/02/2026
+Asistentes: Paula (Operaciones), Andrés (TI), Camila (Compras), Diego (UX), Laura (Finanzas)
+
+Paula: Arranquemos. El objetivo hoy es revisar el estado del portal de proveedores y el bloqueo que tenemos con el registro de proveedores nuevos. La idea es salir con un plan claro para llegar al piloto del 28 de febrero.
+
+Andrés: Desde TI ya tenemos el flujo de login y el formulario principal, pero el tema es que el conector con Business Central está devolviendo errores intermitentes. A veces crea el proveedor y a veces se cae sin log claro. Necesitamos revisar con el equipo de integraciones.
+
+Camila: Para Compras es crítico que el registro no quede a medias. Si el proveedor queda creado sin los documentos, después es un caos hacer seguimiento. Hoy estamos recibiendo PDFs por correo y se nos están perdiendo.
+
+Diego: En pruebas con usuarios internos, el formulario está muy largo. Hay campos que no deberían ser obligatorios en la primera fase. Propongo que en el piloto pidamos lo mínimo: razón social, NIT, contacto, tipo de proveedor y documentos básicos. Lo demás lo completamos luego.
+
+Laura: Ojo con esto: para Finanzas, sin RUT y certificación bancaria no se puede habilitar pagos. Si lo dejamos para después, se nos va a romper el flujo. Podemos flexibilizar otros campos, pero esos dos deben ir sí o sí.
+
+Andrés: Vale. Entonces el MVP del formulario queda con los obligatorios de Finanzas y los mínimos de Compras. Para el error del conector, yo me comprometo a levantar un ticket hoy mismo y pedir trazas. Necesito que me compartan un caso exacto donde falló para replicarlo.
+
+Paula: Bien. Otro punto: necesitamos notificaciones. Cuando el proveedor complete el registro, debe llegar correo a Compras y a Finanzas para validación. Y si faltan documentos, el sistema debe devolver un "pendiente" y avisar al proveedor qué falta.
+
+Camila: Sí, y adicional quiero un tablero semanal: cuántos proveedores entraron, cuántos están pendientes por documentos y cuánto tiempo llevan en ese estado. Si no medimos, no vamos a mejorar.
+
+Diego: Puedo diseñar el estado "pendiente" con microcopy claro y una lista de documentos faltantes. También sugiero que el correo al proveedor sea tipo checklist, no un texto largo.
+
+Laura: Perfecto. Pero por favor, nada de prometer tiempos automáticos. Si ponemos "validación en 24 horas" y no cumplimos, nos explota. Mejor decir "validación en proceso" y que Compras defina SLA real.
+
+Paula: Listo. Entonces acuerdos: MVP del formulario con mínimos + RUT y certificación bancaria obligatorios. TI revisa conector y logs. UX define estados y textos. Compras define tablero y métricas. Próxima revisión el viernes para confirmar si llegamos al piloto del 28.
+
+Andrés: Confirmo. Si hoy conseguimos el caso fallido, mañana ya puedo tener un avance del diagnóstico.
+
+Camila: Yo mando el caso y también una lista de documentos estándar por tipo de proveedor.

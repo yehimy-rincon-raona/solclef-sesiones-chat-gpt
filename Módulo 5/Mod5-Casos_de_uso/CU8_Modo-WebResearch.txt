@@ -1,0 +1,76 @@
+---------------------------------------------------------------------------------------------------------
+Caso de uso: Benchmark de herramientas de IA generativa para empresas (2026)
+---------------------------------------------------------------------------------------------------------
+Caso de uso
+Realizar un benchmark básico y confiable de herramientas de IA generativa para uso corporativo (ChatGPT, Copilot, Gemini), utilizando búsqueda en la web para recopilar información pública y actualizada desde múltiples fuentes, sin inventar datos.
+
+Situación
+Un equipo de estrategia / innovación / TI / liderazgo necesita comparar opciones de IA generativa para decidir qué herramienta evaluar o pilotear en la empresa.
+No tienen tiempo de investigar manualmente en muchos sitios ni de validar fuentes.
+
+Necesitan:
+• Información actual
+• Comparación clara
+• Fuentes verificables (web)
+
+Objetivos a cumplir
+• Buscar información real y reciente en la web.
+• Comparar al menos 3 herramientas de IA generativa para empresas.
+• Evaluar criterios básicos: enfoque, seguridad, casos de uso y precios generales.
+• Entregar un resumen claro y accionable, no técnico.
+• Citar fuentes y no inventar datos.
+
+Qué se espera que pase
+Que ChatGPT:
+• Use la búsqueda web para consultar múltiples fuentes.
+• Sintetice la información encontrada.
+• Presente el benchmark en una tabla comparativa simple.
+• Indique fuentes consultadas.
+• Marque cualquier información no disponible o no pública.
+
+---------------------------------------------------------------------------------------------------------
+Prompt
+---------------------------------------------------------------------------------------------------------
+Contexto:
+Trabajo en un equipo de estrategia corporativa que necesita evaluar herramientas de IA generativa para uso empresarial en 2026. La información debe ser pública, actual y verificable. No se deben usar opiniones ni suposiciones internas.
+
+Rol:
+Actúa como analista de mercado especializado en tecnología empresarial.
+
+Objetivo:
+Investigar y comparar, usando búsqueda en la web, herramientas de IA generativa para empresas (por ejemplo: ChatGPT Enterprise, Microsoft Copilot y Google Gemini), considerando información pública correspondiente al período 2024–2026, y evaluarlas con criterios claros y no técnicos (enfoque empresarial, casos de uso, seguridad y privacidad, modelo comercial e integración con ecosistemas), para generar un benchmark ejecutivo que permita una decisión preliminar de exploración o piloto.
+
+La comparación debe basarse únicamente en información verificable, citar fuentes consultadas y marcar explícitamente cualquier dato que no esté disponible públicamente.
+
+Aceleradores:
+
+Formato: tabla comparativa + resumen ejecutivo en viñetas.
+
+Restricciones:
+• Usa búsqueda en la web.
+• No inventes información.
+• Si un dato no es público, escribe “NO DISPONIBLE”.
+• Cita las fuentes consultadas (sitio y fecha).
+
+Restricción temporal:
+Usa únicamente información publicada entre 2024 y 2026.
+Si una fuente no indica fecha clara, márcala como NO FECHADA o exclúyela.
+
+Criterios de comparación:
+• Enfoque principal de la herramienta
+• Casos de uso empresariales más comunes
+• Enfoque de seguridad y privacidad
+• Modelo de precios (alto nivel, si es público)
+
+Entrega:
+
+• Tabla comparativa clara y sencilla.
+• Resumen ejecutivo (máx. 5 viñetas).
+• Lista de fuentes web utilizadas.
+
+---------------------------------------------------------------------------------------------------------
+Tip didáctico para la capacitación
+
+🔑 Idea clave:
+“Cuando el trabajo depende de información externa y actual, ChatGPT no debe ‘saber’, debe buscar.”
+---------------------------------------------------------------------------------------------------------

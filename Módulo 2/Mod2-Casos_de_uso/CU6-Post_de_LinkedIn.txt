@@ -1,0 +1,39 @@
+---------------------------------------------------------------------------------------------------------
+Prompt sin rellenar
+---------------------------------------------------------------------------------------------------------
+Contexto: [situación + audiencia + restricciones]
+Rol: Actúa como [rol]
+Objetivo: [resultado esperado]
+
+Aceleradores (opcional):
+Formato: [tabla/viñetas/email/checklist]
+Restricciones: [no inventes, extensión, tono, idioma, confidencialidad]
+Si falta información: [hazme preguntas primero / marca “PENDIENTE”]
+
+---------------------------------------------------------------------------------------------------------
+Prompt rellenado
+---------------------------------------------------------------------------------------------------------
+
+Contexto:
+Soy parte del equipo de marketing de NovaDesk (empresa ficticia de soluciones digitales). Queremos publicar en LinkedIn un post sobre IA para empresas dirigido a gerentes, líderes de RRHH, ventas y operaciones (audiencia no técnica). La publicación debe ser clara, práctica y cero “humo”. No tenemos estadísticas propias para citar. Evita prometer resultados garantizados.
+
+Rol:
+Actúa como especialista en comunicación corporativa y contenido para LinkedIn con enfoque en productividad y uso responsable de IA en oficina.
+
+Objetivo:
+Redacta 1 post de LinkedIn (180–220 palabras) que explique cómo la IA ayuda a empresas en tareas diarias, con 3 ejemplos concretos (marketing, RRHH, operaciones o ventas). Incluye un mini marco simple: “Empezar pequeño → medir → estandarizar”. Termina con una pregunta para impulsar comentarios.
+
+Aceleradores:
+Formato: Post con saltos de línea, emojis moderados (máx. 5), y 1 lista corta con bullets.
+Restricciones:
+
+Idioma: Español (neutral).
+
+Tono: Profesional, cercano, práctico.
+
+No inventes cifras, casos reales, clientes, ni estudios.
+
+No uses jerga técnica (evita “LLM”, “RAG”, etc.).
+
+Incluye una línea de “uso responsable” (ej.: anonimizar datos, revisar antes de publicar).
+Si falta información: Marca PENDIENTE al final con máximo 3 preguntas puntuales (por ejemplo: industria, objetivo del post, estilo de marca).

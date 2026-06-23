@@ -1,0 +1,65 @@
+---------------------------------------------------------------------------------------------------------
+# Fase 1 - Descubrimiento
+---------------------------------------------------------------------------------------------------------
+## Propósito
+Disenar un GPT especializado en ayudar a definir cualquier proyecto a traves de un `North Star` que luego se convierte en un `System Prompt` listo para usar.
+
+## Objetivo del paso
+
+Definir bien que proyecto estamos creando antes de estructurarlo.
+
+## Lo que debes conseguir
+
+Al cerrar esta fase deberias tener claro:
+
+- que se quiere construir
+- para que existe
+- para quien
+- que problema resuelve
+- que entradas necesita
+- que salidas produce
+- que limites tiene
+
+---------------------------------------------------------------------------------------------------------
+## Prompt de arranque - Fase 1 descubrimiento
+---------------------------------------------------------------------------------------------------------
+Quiero que trabajemos por fases para disenar un GPT.
+En esta practica no quiero que uses skills, herramientas ni configuraciones externas.
+Vamos a trabajar en un chat normal.
+
+El caso de uso es este:
+Necesito un GPT que ayude a convertir la idea de cualquier proyecto en dos entregables conectados:
+1. un North Star
+2. un System Prompt derivado de ese North Star
+
+Quiero que trabajemos con lenguaje claro, orientado a negocio, sin tecnicismos innecesarios.
+No quiero que inventes informacion critica.
+Si falta contexto, pregunta antes de compilar.
+
+Por ahora quiero trabajar solo la fase de descubrimiento.
+
+---------------------------------------------------------------------------------------------------------
+## Prompt de evaluación de respuesta - Fase 1 descubrimiento
+---------------------------------------------------------------------------------------------------------
+## Que deberias observar en la respuesta
+
+La respuesta correcta de ChatGPT deberia:
+
+- entrar en modo de descubrimiento
+- no intentar escribir todavia el prompt final
+- hacer preguntas para entender el caso
+- ayudar a aterrizar el objetivo
+
+## Si ChatGPT se adelanta demasiado
+
+Reconducelo con este mensaje:
+
+```text
+Todavia no quiero el System Prompt final.
+Primero ayudame a entender y definir el caso.
+Trabaja solo en descubrimiento y sin usar ningun skill.
+```
+
+---------------------------------------------------------------------------------------------------------
+## Prompt de arranque - Fase 1 descubrimiento
+---------------------------------------------------------------------------------------------------------

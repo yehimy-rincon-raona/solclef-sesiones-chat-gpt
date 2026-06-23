@@ -1,0 +1,8 @@
+# Configurar una ejecución programada para un agente
+Puedes hacerlo directamente desde el **editor del agente**, donde tienes la opción de determinar su horario de funcionamiento. Al hacerlo, debes tener en cuenta los siguientes aspectos clave:
+
+*   **Definir la frecuencia y el mensaje inicial:** Puedes establecer una cadencia específica para que el agente opere de manera recurrente, como "todos los días a las 8:00 a.m." o "todos los viernes". Junto con este horario, le asignas un mensaje de inicio simple que desencadene la acción, como por ejemplo "ejecutar análisis".
+*   **Ejecución automática en segundo plano:** Una vez programado, el agente realizará el flujo de trabajo automáticamente en segundo plano. Esto significa que tu equipo no tendrá que acordarse de iniciar la tarea manualmente cada vez.
+*   **Configurar conexiones como "propiedad del agente" (Agent owned):** Si el agente necesita interactuar con fuentes de datos externas de forma programada (como hojas de cálculo en Google Drive), es fundamental que configures la conexión como "propiedad del agente". Esto actúa como una cuenta de servicio, permitiendo que la integración funcione en segundo plano sin depender de la configuración o sesión activa de una persona. 
+
+También puedes combinar esta programación con otros métodos de activación, ya que un agente puede ser desencadenado manualmente dentro de Chat GPT, ejecutarse según el horario que le hayas asignado, o incluso activarse desde otras plataformas de trabajo como Slack.

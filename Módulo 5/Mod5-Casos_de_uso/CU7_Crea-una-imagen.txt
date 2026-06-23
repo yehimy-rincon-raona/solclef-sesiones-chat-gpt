@@ -1,0 +1,288 @@
+---------------------------------------------------------------------------------------------------------
+Caso de uso: Fórmula
+Qué es + sujeto principal + contexto + estilo + composición + iluminación + restricciones + formato
+---------------------------------------------------------------------------------------------------------
+Imagina que estás preparando una presentación para un cliente y necesitas una imagen de portada que comunique “transformación digital en una empresa industrial”, pero no tienes banco de imágenes exacto ni tiempo para diseñarla desde cero. 
+
+1) Con “Crear una imagen” en ChatGPT puedes pedir una escena específica, con estilo corporativo, colores sobrios, composición limpia y espacio para titular. 
+
+Eso te sirve para:
+
+- Portadas de presentaciones,
+- Visuales conceptuales de workshops,
+- Storyboards rápidos,
+- Mockups de campañas,
+- Ilustraciones para explicar una idea sin entrar a diseño detallado.
+
+2) Esto encaja muy bien con el uso oficial de ChatGPT Images: generar imágenes desde texto, editar iterativamente y refinar sobre la conversación o sobre una imagen ya creada.
+
+3) Las mejores ventajas que hoy tiene esta funcionalidad:
+
+ - La mejora grande no es solo “hacer imágenes”, sino que ahora sigue instrucciones con más precisión, permite editar con más control y mantiene mejor la coherencia en detalles.
+
+ - OpenAI describe la experiencia nueva como más precisa en edición, más consistente en detalles y más rápida que versiones anteriores. 
+
+ - También destaca mejor renderizado de texto dentro de la imagen, mejor seguimiento del prompt y uso del contexto conversacional o de imágenes subidas como referencia.
+
+En términos prácticos, las ventajas más útiles para trabajo son estas:
+
+4) Mejor obediencia al prompt: entiende mejor lo que quieres ver, no solo el estilo general.
+
+5) Edición conversacional: puedes decir “mantén la composición, pero cambia el fondo a oficina moderna” y seguir iterando sin empezar de cero.
+
+6) Edición por zona: puedes seleccionar una parte de la imagen y cambiar solo esa área.
+
+7) Mejor texto dentro de imágenes: útil para rótulos, interfaces, carteles o diagramas simples.
+
+
+8) Biblioteca de imágenes: las creaciones quedan agrupadas en la experiencia de Images para volver a ellas y reutilizarlas.
+
+9) Sirve para crear y para transformar: puedes partir de cero o usar una imagen de referencia para variaciones.
+
+---------------------------------------------------------------------------------------------------------
+Fórmula
+Qué es + sujeto principal + contexto + estilo + composición + iluminación + restricciones + formato
+
+---------------------------------------------------------------------------------------------------------
+Paso 1: Define el objetivo
+---------------------------------------------------------------------------------------------------------
+Primero escribe para qué la necesitas.
+
+Ejemplo:
+“Quiero una imagen para la portada de una presentación ejecutiva sobre automatización con IA en una empresa logística.”
+
+---------------------------------------------------------------------------------------------------------
+Paso 2: Define el sujeto principal
+---------------------------------------------------------------------------------------------------------
+Qué debe verse de forma central.
+
+Ejemplo:
+“Mostrar un centro logístico moderno con pantallas de datos, operadores supervisando procesos y sensación de eficiencia.”
+
+---------------------------------------------------------------------------------------------------------
+Paso 3: Define el contexto
+---------------------------------------------------------------------------------------------------------
+Dónde ocurre y qué ambiente transmite.
+
+Ejemplo:
+“En un entorno corporativo, limpio, tecnológico, realista, de alto nivel, sin verse futurista exagerado.”
+
+---------------------------------------------------------------------------------------------------------
+Paso 4: Define el estilo visual
+---------------------------------------------------------------------------------------------------------
+Aquí metes el “filtro” creativo.
+
+- foto realista
+- ilustración editorial
+- 3D limpio
+- minimalista
+- corporativo premium
+- esquemático
+- cinematográfico suave
+- isométrico
+- infografía visual
+
+---------------------------------------------------------------------------------------------------------
+Paso 5: Define composición
+---------------------------------------------------------------------------------------------------------
+Esto cambia muchísimo el resultado.
+
+Ejemplos:
+
+- plano general
+- vista isométrica
+- composición horizontal 16:9
+- espacio negativo a la izquierda para poner título
+- foco en el centro
+- pocos elementos
+- profundidad suave
+- sin saturación visual
+
+---------------------------------------------------------------------------------------------------------
+Paso 6: Define color e iluminación
+---------------------------------------------------------------------------------------------------------
+Muy útil para controlar tono.
+
+Ejemplo:
+“Paleta azul, gris y blanco, iluminación suave, profesional, alto contraste moderado, sin colores neón.”
+
+---------------------------------------------------------------------------------------------------------
+Paso 7: Agrega restricciones
+---------------------------------------------------------------------------------------------------------
+Esta parte separa un prompt normal de uno bueno.
+
+Ejemplos:
+
+- sin texto incrustado
+- sin marcas de agua
+- sin estilo caricatura
+- sin manos en primer plano
+- sin estética sci-fi
+- sin exceso de elementos
+- no mostrar rostros demasiado protagonistas
+- evitar apariencia genérica de stock
+
+---------------------------------------------------------------------------------------------------------
+Paso 8: Define el formato final
+---------------------------------------------------------------------------------------------------------
+
+Ejemplo:
+“Formato horizontal 16:9, pensado para diapositiva de presentación.”
+
+---------------------------------------------------------------------------------------------------------
+Prompt maestro listo para usar
+---------------------------------------------------------------------------------------------------------
+Versión corporativa fuerte:
+---------------------------------------------------------------------------------------------------------
+Crea una imagen horizontal 16:9 para la portada de una presentación ejecutiva sobre automatización con IA en una empresa logística. Mostrar un centro logístico moderno con operadores supervisando procesos, pantallas con datos, flujo eficiente de paquetes y ambiente profesional. Estilo foto realista corporativo premium, limpio, sobrio y contemporáneo. Composición ordenada, con espacio negativo en el lado izquierdo para colocar un título. Paleta en tonos azul, gris y blanco. Iluminación suave, realista y elegante. Debe transmitir eficiencia, innovación y control operativo. Evitar estética futurista exagerada, colores neón, exceso de elementos, texto incrustado, marcas de agua y apariencia genérica de stock.
+
+---------------------------------------------------------------------------------------------------------
+Versión todavía más poderosa, usando “capas” de control
+---------------------------------------------------------------------------------------------------------
+
+- Crea una imagen para presentación ejecutiva.
+- Objetivo: comunicar automatización inteligente en logística.
+- Sujeto principal: centro de distribución moderno con tecnología visible y operación eficiente.
+- Contexto: empresa grande, entorno limpio, ordenado, confiable.
+- Estilo: foto realista corporativa, premium, contemporánea.
+- Composición: horizontal 16:9, profundidad media, foco visual en zona central-derecha, espacio vacío a la izquierda para titular.
+- Color: azul, gris, blanco, contraste moderado.
+- Iluminación: suave, profesional, natural con toque tecnológico.
+- Sensación: innovación, eficiencia, precisión, confianza.
+- Restricciones: sin texto, sin logos, sin marcas de agua, sin neón, sin look futurista extremo, sin sobrecarga visual, sin caricatura.
+
+
+---------------------------------------------------------------------------------------------------------
+Cómo aprovechar “filtros” y ajustes desde el texto
+---------------------------------------------------------------------------------------------------------
+1. Filtro de estilo
+“estilo minimalista”, “editorial”, “fotografía de producto”, “isométrico”, “acuarela”, “render 3D”.
+
+2. Filtro de realismo
+“foto realista”, “hiperrealista”, “conceptual”, “ilustrado”, “esquemático”.
+
+3. Filtro de marca
+“corporativo premium”, “sobrio”, “limpio”, “moderno”, “ejecutivo”, “tecnológico pero humano”.
+
+4. Filtro de composición
+“primer plano”, “vista aérea”, “frontal”, “isométrica”, “mucho espacio negativo”, “centrado”, “simétrico”.
+
+5. Filtro de ambiente
+“oficina moderna”, “fábrica limpia”, “ciudad”, “campo”, “estudio”, “interior cálido”, “laboratorio”.
+
+6. Filtro de exclusión
+“sin texto”, “sin logos”, “sin marcas de agua”, “sin personas”, “sin fondo cargado”, “sin colores fuertes”.
+
+---------------------------------------------------------------------------------------------------------
+Truco de oro para sacar mejores resultados
+---------------------------------------------------------------------------------------------------------
+No pidas todo perfecto a la primera. Hazlo en rondas:
+
+Ronda 1: genera la base
+Ronda 2: corrige composición
+Ronda 3: ajusta estilo y color
+Ronda 4: limpia elementos no deseados
+Ronda 5: pide una variante final más ejecutiva o más creativa
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+Ejemplo(s) 
+---------------------------------------------------------------------------------------------------------
+Paso 1: Define el objetivo
+---------------------------------------------------------------------------------------------------------
+
+Primero escribe para qué la necesitas.
+
+Ejemplo:
+“Quiero una imagen para la portada de una presentación ejecutiva sobre automatización con IA en una empresa logística.”
+
+---------------------------------------------------------------------------------------------------------
+Paso 2: Define el sujeto principal
+---------------------------------------------------------------------------------------------------------
+
+Qué debe verse de forma central.
+
+Ejemplo:
+“Mostrar un centro logístico moderno con pantallas de datos, operadores supervisando procesos y sensación de eficiencia.”
+
+---------------------------------------------------------------------------------------------------------
+Paso 3: Define el contexto
+---------------------------------------------------------------------------------------------------------
+
+Dónde ocurre y qué ambiente transmite.
+
+Ejemplo:
+“En un entorno corporativo, limpio, tecnológico, realista, de alto nivel, sin verse futurista exagerado.”
+
+---------------------------------------------------------------------------------------------------------
+Paso 4: Define el estilo visual
+---------------------------------------------------------------------------------------------------------
+
+Aquí metes el “filtro” creativo.
+
+Puedes pedir cosas como:
+
+foto realista
+ilustración editorial
+3D limpio
+minimalista
+corporativo premium
+esquemático
+cinematográfico suave
+isométrico
+infografía visual
+
+---------------------------------------------------------------------------------------------------------
+Paso 5: Define composición
+---------------------------------------------------------------------------------------------------------
+
+Esto cambia muchísimo el resultado.
+
+Ejemplos:
+
+plano general
+vista isométrica
+composición horizontal 16:9
+espacio negativo a la izquierda para poner título
+foco en el centro
+pocos elementos
+profundidad suave
+sin saturación visual
+
+---------------------------------------------------------------------------------------------------------
+Paso 6: Define color e iluminación
+---------------------------------------------------------------------------------------------------------
+Muy útil para controlar tono.
+
+Ejemplo:
+“Paleta azul, gris y blanco, iluminación suave, profesional, alto contraste moderado, sin colores neón.”
+
+---------------------------------------------------------------------------------------------------------
+Paso 7: Agrega restricciones
+---------------------------------------------------------------------------------------------------------
+
+Esta parte separa un prompt normal de uno bueno.
+
+Ejemplos:
+
+sin texto incrustado
+sin marcas de agua
+sin estilo caricatura
+sin manos en primer plano
+sin estética sci-fi
+sin exceso de elementos
+no mostrar rostros demasiado protagonistas
+evitar apariencia genérica de stock
+
+---------------------------------------------------------------------------------------------------------
+Paso 8: Define el formato final
+---------------------------------------------------------------------------------------------------------
+
+Ejemplo:
+“Formato horizontal 16:9, pensado para diapositiva de presentación.”

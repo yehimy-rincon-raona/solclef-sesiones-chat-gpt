@@ -1,0 +1,62 @@
+---------------------------------------------------------------------------------------------------------
+Caso de uso:
+---------------------------------------------------------------------------------------------------------
+
+Completar “Acerca de ti” para darle a ChatGPT contexto personal y profesional estable.
+
+Aquí no pones tareas del momento, sino información que le ayuda a entender:
+
+- Cómo trabajas,
+- Qué valoras,
+- Cómo prefieres recibir respuestas,
+- Y qué tipo de apoyo te sirve más.
+
+
+---------------------------------------------------------------------------------------------------------
+Ejemplo(s) Arquetipo de ejemplo
+---------------------------------------------------------------------------------------------------------
+
+Laura, Consultora UX/UI
+
+Laura trabaja con clientes, equipos de tecnología y negocio.
+Necesita que ChatGPT entienda que valora la claridad, la estructura y un enfoque estratégico, no solo respuestas rápidas.
+
+Qué escribiría Laura en “Acerca de ti”
+
+Me gusta trabajar con información clara, bien estructurada y fácil de convertir en entregables. Valoro respuestas profesionales, prácticas y con enfoque estratégico. Prefiero ejemplos aplicados a experiencia de usuario, comunicación con clientes, talleres, investigación y documentación. Me ayuda que las ideas complejas se expliquen de forma simple, ordenada y persuasiva.
+
+
+------
+Qué se logra con eso:
+
+Con esa personalización, ChatGPT entiende mejor que Laura:
+
+- No quiere respuestas improvisadas,
+- Nnecesita contenido útil para contexto profesional,
+- Prefiere apoyo que le ayude a pensar, estructurar y comunicar mejor.
+
+** “Acerca de ti” es donde le das a ChatGPT contexto más humano y más estable sobre cómo piensas y cómo trabajas.**
+
+Versión corta para poner directamente en la slide
+
+
+------
+
+Arquetipo: Laura, Consultora UX/UI
+En “Acerca de ti” escribe preferencias estables como:
+
+- Le gustan respuestas claras y estructuradas,
+- Valora enfoque estratégico,
+- Prefiere ejemplos aplicados a UX y clientes,
+- Necesita ideas fáciles de convertir en entregables.
+
+Ejemplo:
+
+Me gusta trabajar con información clara, estructurada y útil para presentaciones, talleres y entregables. Valoro respuestas profesionales, estratégicas y fáciles de aplicar. Me ayudan ejemplos concretos y explicaciones simples de temas complejos.
+
+----
+
+Regla rápida para explicar
+
+1. Si describe cómo te gusta trabajar siempre, va en “Acerca de ti”.
+2. Si cambia según el proyecto o la semana, no va ahí.

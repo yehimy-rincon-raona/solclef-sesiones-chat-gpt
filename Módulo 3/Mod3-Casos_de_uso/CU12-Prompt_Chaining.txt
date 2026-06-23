@@ -1,0 +1,116 @@
+---------------------------------------------------------------------------------------------------------
+PASO 1 — Extraer hechos de la reunión
+Objetivo del paso: Convertir notas de reunión en decisiones, pendientes y riesgos, sin interpretaciones.
+---------------------------------------------------------------------------------------------------------
+Contexto:
+Tuvimos una reunión de producto para definir el MVP de una app de reservas.
+Estas son notas crudas de la reunión (pueden estar desordenadas).
+
+Rol:
+Actúa como analista de producto.
+
+Objetivo:
+Extraer únicamente lo que se dijo explícitamente en la reunión.
+
+Formato:
+Viñetas separadas en 3 bloques:
+- Decisiones tomadas
+- Pendientes
+- Riesgos
+
+Restricciones:
+No inventes nada.
+No completes información faltante.
+Si algo no es claro, marca PENDIENTE.
+
+Notas de la reunión:
+[pegar aquí notas o resumen corto]
+
+
+---------------------------------------------------------------------------------------------------------
+PASO 2 — Convertir decisiones en requerimientos
+Objetivo del paso: Traducir decisiones en requerimientos funcionales claros, sin priorizar todavía.
+---------------------------------------------------------------------------------------------------------
+Contexto:
+A partir de las decisiones tomadas en una reunión de producto para un MVP de app de reservas.
+
+Rol:
+Actúa como Product Owner.
+
+Objetivo:
+Convertir cada decisión en un requerimiento funcional claro.
+
+Formato:
+Lista numerada de requerimientos.
+Cada requerimiento debe tener:
+- Qué hace
+- Para quién
+- Para qué
+
+Restricciones:
+Usa solo las decisiones entregadas.
+No inventes funcionalidades nuevas.
+Si una decisión es ambigua, marca PENDIENTE.
+
+Decisiones:
+[pegar aquí las decisiones del Paso 1]
+
+
+---------------------------------------------------------------------------------------------------------
+PASO 3 — Crear backlog simple del MVP
+Objetivo del paso: Ordenar los requerimientos en un backlog mínimo, enfocado en MVP.
+---------------------------------------------------------------------------------------------------------
+Contexto:
+Tenemos una lista de requerimientos funcionales para el MVP de una app de reservas.
+
+Rol:
+Actúa como Product Manager.
+
+Objetivo:
+Convertir los requerimientos en un backlog priorizado para un MVP.
+
+Formato:
+Tabla con:
+- Ítem
+- Descripción corta
+- Prioridad (Alta / Media / Baja)
+- Nota (si hay dependencias o dudas)
+
+Restricciones:
+Piensa en MVP (mínimo viable).
+No inventes prioridades sin justificar.
+Si hay dudas, marca PENDIENTE.
+
+Requerimientos:
+[pegar aquí requerimientos del Paso 2]
+
+
+---------------------------------------------------------------------------------------------------------
+PASO 4 — Mensaje de alineación al equipo
+Objetivo del paso: Comunicar claramente qué se va a hacer, qué no, y qué falta definir.
+---------------------------------------------------------------------------------------------------------
+Contexto:
+El equipo de producto, diseño y desarrollo necesita alineación después de una reunión de MVP.
+
+Rol:
+Actúa como líder de producto.
+
+Objetivo:
+Redactar un mensaje de alineación para el equipo.
+
+Formato:
+Mensaje corto tipo Slack / Teams con:
+- Objetivo del MVP
+- Qué entra en esta primera versión
+- Qué queda fuera por ahora
+- Pendientes y riesgos visibles
+- Próximo paso claro
+
+Restricciones:
+Tono claro y profesional.
+Máximo 10 líneas.
+No inventes compromisos ni fechas.
+Marca PENDIENTE si aplica.
+
+Backlog MVP:
+[pegar aquí backlog del Paso 3]

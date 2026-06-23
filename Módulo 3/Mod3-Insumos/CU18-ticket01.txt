@@ -1,0 +1,10 @@
+Ticket 1 — Acceso a plataforma
+
+Cliente: Laura Gómez
+Número de ticket: TK-2048
+Canal: Portal web
+Asunto: No puede ingresar a la plataforma
+Descripción del caso:
+La cliente indica que restableció su contraseña, pero al intentar iniciar sesión el sistema sigue mostrando error de acceso. Ya probó desde navegador y celular.
+Estado: Abierto
+Área sugerida: Soporte técnico

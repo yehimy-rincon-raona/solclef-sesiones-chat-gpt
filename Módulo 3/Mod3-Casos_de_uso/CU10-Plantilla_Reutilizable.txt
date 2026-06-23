@@ -1,0 +1,89 @@
+---------------------------------------------------------------------------------------------------------
+Prompt sin rellenar
+---------------------------------------------------------------------------------------------------------
+Contexto:
+[Describe brevemente la situación, para quién es el resultado y cualquier restricción relevante]
+
+Rol:
+Actúa como [rol profesional que ayude a resolver la tarea]
+
+Objetivo:
+[Qué resultado concreto necesito]
+
+Aceleradores (opcionales):
+Formato: [viñetas / tabla / checklist / email / resumen ejecutivo]
+Restricciones: [no inventes datos, tono, extensión máxima, idioma]
+Si falta información: [hazme preguntas primero / marca PENDIENTE]
+
+
+---------------------------------------------------------------------------------------------------------
+Prompt Inicial / plantilla
+---------------------------------------------------------------------------------------------------------
+Contexto:
+Necesito analizar una tabla semanal de indicadores operativos para identificar desvíos y preparar un seguimiento interno.
+
+Rol:
+Actúa como analista de operaciones.
+
+Objetivo:
+Revisa los datos, detecta variaciones relevantes, separa hechos de interpretación y entrega un análisis breve y accionable para el equipo.
+
+Datos:
+Semana actual vs meta:
+- Producción diaria promedio: 82 / meta 95
+- Incidencias abiertas: 14 / meta 8
+- Tiempo medio de resolución: 19 horas / meta 12 horas
+- Cumplimiento SLA: 88% / meta 95%
+- Horas extra del equipo: 26 / semana anterior 11
+- Ausentismo: 7% / meta 3%
+
+Restricciones:
+- Usa solo la información proporcionada.
+- No inventes causas no confirmadas.
+- Si un dato no permite interpretación completa, marca PENDIENTE.
+- Prioriza los desvíos según impacto operativo.
+- No escribas párrafos largos.
+
+Formato:
+Entrega en este orden:
+1. Resumen ejecutivo en máximo 5 bullets
+2. Tabla con columnas: Indicador | Valor actual | Meta o referencia | Desvío detectado | Prioridad | Posible explicación
+3. Lista de pendientes
+4. Acciones sugeridas para seguimiento
+5. Riesgos o alertas
+
+
+---------------------------------------------------------------------------------------------------------
+Prompt de mejora / ajuste
+No estamos “mejorando la plantilla” como documento, sino mejorando la salida generada a partir de esa plantilla.
+---------------------------------------------------------------------------------------------------------
+
+Ajusta tu análisis con estas reglas:
+- Prioriza solo los 3 desvíos más críticos.
+- Distingue claramente entre “hecho observado” y “posible explicación”.
+- Si una explicación no se puede sostener con los datos, escribe PENDIENTE.
+- Haz que las acciones sugeridas sean concretas y operativas.
+- Mantén el resumen ejecutivo en máximo 4 bullets.
+
+Devuelve otra vez:
+1. Resumen ejecutivo
+2. Tabla priorizada
+3. Pendientes
+4. Acciones sugeridas
+
+---------------------------------------------------------------------------------------------------------
+Prompt de verificación
+---------------------------------------------------------------------------------------------------------
+Verifica tu respuesta con este checklist y responde OK / NO OK:
+
+CHECKLIST:
+- ¿Usaste solo los datos entregados?
+- ¿Separaste hechos de interpretaciones?
+- ¿Marcaste PENDIENTE cuando faltó contexto?
+- ¿Priorizaste los desvíos por impacto?
+- ¿La salida quedó breve, clara y reutilizable?
+
+Entrega:
+A) Tabla de verificación
+B) Correcciones puntuales si aplica
+C) Versión final corregida

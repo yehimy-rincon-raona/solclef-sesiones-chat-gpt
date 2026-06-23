@@ -1,0 +1,242 @@
+---------------------------------------------------------------------------------------------------------
+Caso de uso: Usar el Modo Agente para organizar automáticamente la preparación de un reporte mensual de ventas a partir de varios archivos (Excel + notas + email), generando un plan estructurado y el borrador final del reporte.
+---------------------------------------------------------------------------------------------------------
+Análisis ejecutivo de ventas + impactos operativos + entregables visuales para comité
+Objetivo del ejercicio
+
+Mostrar que Agent Mode no solo analiza archivos, sino que también puede organizar información, detectar hallazgos, estructurar decisiones y producir entregables ejecutivos listos para socializar.
+
+---------------------------------------------------------------------------------------------------------
+Paso 1. Definir el plan de trabajo
+---------------------------------------------------------------------------------------------------------
+Pídele al agente que antes de ejecutar explique brevemente cómo va a trabajar.
+
+Qué debe hacer:
+
+- Identificar archivos disponibles
+- Definir variables clave a comparar
+- Relacionar ventas con incidencias operativas
+- Detectar hallazgos
+- Preparar entregables ejecutivos
+
+Resultado esperado:
+Un plan en 5–7 pasos, claro y entendible para audiencia no técnica.
+
+---------------------------------------------------------------------------------------------------------
+Paso 2. Analizar los archivos fuente
+---------------------------------------------------------------------------------------------------------
+
+El agente debe leer y organizar:
+
+- Ventas_Enero_2026.xlsx
+- Ventas_Febrero_2026.xlsx
+- Email_Logistica_Retrasos_Zona_Norte_Febrero_2026.txt
+- Nota interna sobre baja conversión en canal digital
+
+Qué debe extraer:
+
+- Ventas totales por mes
+- Variación absoluta y porcentual
+- Resultados por zona
+- Resultados por canal
+- Patrones de caída o crecimiento
+- Posibles alertas operativas o comerciales
+
+Regla clave:
+- Si falta un archivo o una fuente, debe marcarlo como PENDIENTE.
+
+---------------------------------------------------------------------------------------------------------
+Paso 3. Cruzar ventas con incidencias operativas
+---------------------------------------------------------------------------------------------------------
+
+Aquí es donde el caso gana valor ejecutivo.
+
+Qué debe hacer el agente:
+
+- Revisar si la Zona Norte presenta caída, desaceleración o anomalías
+- Ver si hay coincidencia temporal entre retrasos logísticos y desempeño comercial
+- Revisar si el canal digital muestra menor conversión o menor aporte relativo
+- Diferenciar entre:
+- hechos observables
+- hipótesis razonables
+- datos no confirmados
+
+Resultado esperado:
+- Conclusiones prudentes, sin inventar causas.
+
+---------------------------------------------------------------------------------------------------------
+Paso 4. Construir el análisis ejecutivo base
+---------------------------------------------------------------------------------------------------------
+Pídele que consolide todo en un borrador ejecutivo estructurado.
+
+Debe incluir:
+
+- Resumen ejecutivo
+- Comparativo enero vs febrero
+- Riesgos
+- Impacto operativo
+- Recomendaciones
+- Decisiones para comité
+- Datos pendientes
+
+---------------------------------------------------------------------------------------------------------
+Paso 5. Generar una tabla/DF con diseño ejecutivo
+---------------------------------------------------------------------------------------------------------
+Aquí está la mejora clave que quieres incorporar.
+
+En vez de pedir solo análisis, pídele que produzca un DF o tabla ejecutiva con formato de comité.
+
+Debe verse como un tablero resumido, por ejemplo con columnas como:
+
+- Indicador
+- Enero
+- Febrero
+- Variación %
+- Nivel de alerta
+- Comentario ejecutivo
+
+Buenas instrucciones para el agente:
+
+- Priorizar legibilidad
+- Resaltar variaciones relevantes
+- Etiquetar alertas en alto / medio / bajo
+- Mantener texto corto, orientado a decisión
+- No usar tecnicismos
+
+Resultado esperado:
+Una tabla que se pueda copiar a Excel, Sheets o llevar a una slide.
+
+---------------------------------------------------------------------------------------------------------
+Paso 6. Generar una infografía ejecutiva
+---------------------------------------------------------------------------------------------------------
+
+Este punto hace que el ejercicio se vea mucho más cercano a una necesidad real.
+
+Qué pedirle:
+Crear una infografía de una página que sintetice:
+
+- Hallazgos más relevantes
+- Cambios entre enero y febrero
+- Impacto de retrasos en Zona Norte
+- Riesgo del canal digital
+- 3 recomendaciones prioritarias
+
+Formato recomendado:
+
+- Título principal
+- 3 a 5 bloques visuales
+- KPIs grandes
+- Flechas o indicadores de variación
+- Semáforo de riesgos
+- Cierre con mensaje ejecutivo
+
+Estilo visual solicitado:
+Inspirado en la línea gráfica de la marca:
+
+- Fondo azul marino oscuro
+- Texto blanco
+- Acentos en amarillo y rojo/anaranjado
+- Diseño limpio, corporativo, moderno
+- Alto contraste
+- Íconos simples y ejecutivos
+- No recargar
+
+---------------------------------------------------------------------------------------------------------
+Paso 7. Generar la presentación en PowerPoint
+---------------------------------------------------------------------------------------------------------
+
+Aquí el entregable deja de ser “análisis” y pasa a ser “material listo para comité”.
+
+Qué debe crear:
+Un borrador de presentación con:
+
+- Portada
+- Resumen ejecutivo
+- Comparativo enero vs febrero
+- Hallazgos por zona
+- Hallazgos por canal
+- Impacto operativo
+- Riesgos
+- Recomendaciones
+- Decisiones para comité
+- Slide final de pendientes
+
+Lineamientos visuales para la PPT:
+
+ - Estilo corporativo ejecutivo
+ - Inspirado en la marca de la imagen cargada
+ - Paleta:
+ - azul marino oscuro
+ - blanco
+ - amarillo
+ - rojo/anaranjado
+ - Uso de bloques limpios
+ - Títulos fuertes
+ - 1 idea por slide
+ - Gráficos simples y legibles
+ - Poco texto por slide
+ - Enfoque directivo, no técnico
+
+---------------------------------------------------------------------------------------------------------
+Paso 8. Explicar cómo llegó a las conclusiones
+---------------------------------------------------------------------------------------------------------
+
+Pídele que en cada conclusión indique brevemente:
+
+- qué dato observó
+- qué comparación hizo
+- por qué lo considera relevante
+- si es evidencia o estimación
+
+---------------------------------------------------------------------------------------------------------
+Prompt
+---------------------------------------------------------------------------------------------------------
+**Contexto:**
+Estamos preparando el reporte mensual de ventas de Febrero 2026 para el comité directivo. Contamos con los archivos de ventas de enero y febrero y notas internas sobre logística y conversión digital.
+
+**Objetivo:**
+Analizar el desempeño comercial y los impactos operativos, y generar entregables ejecutivos listos para presentar.
+
+**Rol del asistente:**
+Actuar como analista senior de negocio especializado en reportes ejecutivos y comunicación visual, y creador de presentaciones en PowerPoint.
+
+**Tareas a realizar:**
+
+1. Ejecuta un análisis completo de todos los archivos cargados y crea un resumen en canvas para ser editado en vivo dentro de la interfaz de Chat GPT, este **Canvas editable de resumen de análisis** debe incluir también un resumen de cómo se llegó a cada conclusión y de lo analizado.
+
+2. Genera un POWERPOINT, con diseño corporativo teniendo en cuenta el estilo gráfico de la imagen cargada como fuente "screenshot.png", y estructuralo con las siguientes secciones:
+
+     1. Plan de trabajo.
+     2. Resumen Ejecutivo.
+     3. Análisis Comparativo Enero vs. Febrero (incluyendo tabla con indicadores, valores, variación %, nivel de alerta y comentario).
+     4. Impacto Operativo (Zona Norte).
+     5. Riesgos Identificados.
+     6. Recomendaciones Prioritarias.
+     7. Decisiones para Comité.
+     8. Datos Pendientes.
+     9. Tabla / DF ejecutivo, Incluye una tabla con:
+        Indicador | Enero | Febrero | Variación % | Nivel de alerta | Comentario ejecutivo
+
+     El diseño debe seguir la estética corporativa del screenshot proporcionado: como color principal el naranja y el negro, blanco para textos, amarillo para resaltar KPIs positivos y rojo/naranja para alertas. La presentación debe estar en PowerPoint, (no cargar demasiado los diseños, usar imágenes de apoyo y colores corporativos, jerarquía visual clara). Cada diapositiva debe comunicar una sola idea principal.
+
+3. Genera una **Infografía ejecutiva de una página**, que sea en formato vertical y que resuma de forma visual los datos y hallazgos más relevantes del informe. Debe seguir los colores corporativos mencionados y utilizar gráficos comparativos claros, iconografía ejecutiva y bloques diferenciados para cada sección (ventas por canal, ventas por zona, principales variaciones, alertas y recomendaciones).
+
+Tener en cuenta:
+- Explicar brevemente la metodología utilizada para cada conclusión.
+- Mo inventar datos: si falta algún dato necesario, marcarlo como PENDIENTE.
+- Emplear lenguaje ejecutivo, conciso y claro, y priorizar la claridad visual.
+
+**Lineamientos adicionales:**
+
+* En la tabla de indicadores, utilizar palabras o frases cortas; no poner párrafos largos en celdas de tablas.
+* Cruce de información: relacionar ventas con incidencias logísticas y fricciones digitales, pero sin inventar causalidad.
+* Los entregables deben incluir un nivel de alerta (Alta, Media, Baja, Positiva) según la variación de cada indicador y un comentario ejecutivo que resuma la causa o contexto.
+* Asegúrate de que el PowerPoint sea descargable
+* La infografía debe ser en formato de imagen .png
+* El canvas debe ser un documento vivo
+
+Al final, entrégame:
+- enlace al .pptx,
+- enlace a la infografía,
+- enlace al canvas editable,
+- resumen breve en chat.
